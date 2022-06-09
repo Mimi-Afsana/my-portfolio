@@ -1,0 +1,8 @@
+.projects-information img {
+  width: 500px;
+  height: 300px;
+}
+.projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
