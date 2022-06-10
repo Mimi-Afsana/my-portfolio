@@ -1,4 +1,14 @@
 .set-skill {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+  grid-gap: 0px;
+}
+
+@media screen and (max-width: 576px) {
+  .set-skill {
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 0px;
+    margin-right: 0px;
+    grid-gap: 20px;
+  }
 }

@@ -1,8 +1,39 @@
 .projects-information img {
-  width: 500px;
-  height: 300px;
+  width: 350px;
+  height: 250px;
 }
 .projects {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+}
+.set-position {
+  position: relative;
+}
+.detail {
+  position: absolute;
+  width: 350px;
+  height: 235px;
+  margin-right: 0;
+  padding-left: 15px;
+  margin-top: 15px;
+  top: 0;
+  color: black;
+  display: none;
+}
+.set-position:hover .detail {
+  display: block;
+  background-color: rgba(199, 180, 134, 0.5);
+  transition: 3s ease-in-out;
+}
+@media screen and (max-width: 576px) {
+  .projects {
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 20px;
+    margin-right: 20px;
+    grid-gap: 20px;
+  }
+  .detail {
+    width: 100%;
+  }
 }

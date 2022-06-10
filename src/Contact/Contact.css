@@ -1,14 +1,13 @@
-.services {
+.form-submit{
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2,1fr);
 }
-  
 
 @media screen and (max-width: 576px) {
-  .services {
+  .form-submit {
     grid-template-columns: repeat(1, 1fr);
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
     grid-gap: 20px;
   }
 }

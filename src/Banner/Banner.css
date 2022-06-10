@@ -2,3 +2,8 @@
   height: 380px;
   width: 500px;
 }
+
+/* .banner-grid{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+} */

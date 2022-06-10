@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import { FaPortrait } from "react-icons/fa";
 const Header = () => {
   const menuItems = (
     <>
@@ -14,17 +14,20 @@ const Header = () => {
         <a href="#services">SERVICES</a>
       </li>
       <li>
-        <Link to="/contact">Contact</Link>
+        <a href="#skill">SKILLS</a>
       </li>
       <li>
-        <Link to="/about">About</Link>
+        <a href="#portfolio">PORTFOLIOS</a>
+      </li>
+      <li>
+        <a href="#contact">CONTACT</a>
       </li>
     </>
   );
 
   return (
     <div className="bg-color mx-auto text-white">
-      <div className="navbar lg:pl-80 lg:pr-36 mx-auto">
+      <div className="navbar lg:pl-32 lg:pr-36 mx-auto">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex="0" className="btn btn-ghost lg:hidden">
@@ -50,7 +53,10 @@ const Header = () => {
               {menuItems}
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case text-xl pl-6">Afsana Mimi</a>
+          <a className="btn btn-ghost normal-case text-xl pl-6">
+            <FaPortrait className="mr-3 rounded-full text-2xl"></FaPortrait>{" "}
+            Afsana Mimi
+          </a>
         </div>
         <div className="navbar-center hidden lg:flex lg:pr-36">
           <ul className="menu menu-horizontal p-0">{menuItems}</ul>
