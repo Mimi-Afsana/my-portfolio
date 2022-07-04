@@ -1,20 +1,24 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./MyProjects.css";
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+
+AOS.init();
 const MyProjects = () => {
   return (
     <div>
       <div
-        className="text-white projects-information lg:pl-40 lg:pr-40 mb-10 pb-10"
+        className="text-white projects-information lg:pl-40 lg:pr-40 mb-10 pb-10 "
         id="portfolio"
       >
-        <h3 className="text-center lg:pr-12 font-bold text-3xl mb-5 lg:mt-12 lg:mb-10">
+        <h3 className="text-center font-bold text-3xl mb-5 lg:pt-7 lg:pb-2 lg:mt-12 lg:mb-12">
           MY <span className="text-orange-300 ">PROJECTS</span>
         </h3>
 
         <div className="projects">
           <a target="_blank" className="set-position">
-            <div className="">
+            <div className="" data-aos="fade-up" data-aos-duration="600">
               <img
                 src="https://i.ibb.co/QfW1P62/Warehouse-management-system-1.png"
                 alt=""
@@ -22,20 +26,20 @@ const MyProjects = () => {
             </div>
             <div className="detail">
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis
-                sequi vel cum aliquid cupiditate assumenda deleniti neque harum,
-                eveniet possimus!
+                <p className="lg:mt-14 font-bold lg:pl-3 lg:mb-5 text-slate-800">
+                  FRUITS WAREHOUSE MANAGEMENT SYSTEM
+                </p>
               </p>
               <Link
                 to="/fruitss"
-                className="border bg-orange-500 rounded-full px-3 mt-10 font-bold"
+                className=" bg-orange-500 rounded-full px-3 font-bold lg:ml-2 text-slate-800 py-2 border-0"
               >
                 SEE DETAILS
               </Link>
             </div>
           </a>
           <a target="_blank" href="" className="set-position">
-            <div className="">
+            <div className="" data-aos="fade-up" data-aos-duration="600">
               <img
                 src="https://i.ibb.co/gTTWwd3/Refrigerator-Parts-Manufracturer-Website-2.png"
                 alt=""
@@ -43,106 +47,117 @@ const MyProjects = () => {
             </div>
             <div className="detail">
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis
-                sequi vel cum aliquid cupiditate assumenda deleniti neque harum,
-                eveniet possimus!
+                <p className="lg:mt-14 font-bold lg:pl-3 lg:mb-5 text-slate-800">
+                  REFRIGERATOR PARTS MANUFRACTURER
+                </p>
               </p>
-              <button className="border bg-orange-500 rounded-full px-3 mt-5 font-bold">
+              <Link
+                to="/manufrac"
+                className=" bg-orange-500 rounded-full px-3 font-bold lg:ml-2 text-slate-800 py-2 border-0"
+              >
                 SEE DETAILS
-              </button>
+              </Link>
             </div>
           </a>
           <a target="_blank" href="" className="set-position">
-            <div className="">
+            <div className="" data-aos="fade-up" data-aos-duration="600">
               <img src="https://i.ibb.co/xDMm6DD/MEDICAL-CARE-2.png" alt="" />
             </div>
             <div className="detail">
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis
-                sequi vel cum aliquid cupiditate assumenda deleniti neque harum,
-                eveniet possimus!
+                <p className="lg:mt-14 font-bold lg:pl-3 lg:mb-5 text-slate-800">
+                  MEDICAL CARE
+                </p>
               </p>
-              <button className="border bg-orange-500 rounded-full px-3 mt-5 font-bold">
+              <Link
+                to="/medical"
+                className=" bg-orange-500 rounded-full px-3 font-bold lg:ml-2 text-slate-800 py-2 border-0"
+              >
                 SEE DETAILS
-              </button>
+              </Link>
             </div>
           </a>
           <a target="_blank" href="" className="set-position">
-            <div className="">
+            <div className="" data-aos="fade-up" data-aos-duration="600">
               <img src="https://i.ibb.co/6gn2rms/Money-master.png" alt="" />
             </div>
             <div className="detail">
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis
-                sequi vel cum aliquid cupiditate assumenda deleniti neque harum,
-                eveniet possimus!
+              <p className="lg:mt-14 font-bold lg:pl-3 lg:mb-5 text-slate-800">
+                MONEY MASTER
               </p>
-              <button className="border bg-orange-500 rounded-full px-3 mt-5 font-bold">
+              <Link
+                to="/money"
+                className=" bg-orange-500 rounded-full px-3 font-bold lg:ml-2 text-slate-800 py-2 border-0"
+              >
                 SEE DETAILS
-              </button>
+              </Link>
             </div>
           </a>
           <a target="_blank" href="" className="set-position">
-            <div className="">
+            <div className="" data-aos="fade-up" data-aos-duration="600">
               <img
                 src="https://i.ibb.co/Yfz9pkm/Convention-community-center.png"
                 alt=""
               />
             </div>
             <div className="detail">
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis
-                sequi vel cum aliquid cupiditate assumenda deleniti neque harum,
-                eveniet possimus!
+              <p className="lg:mt-14 font-bold lg:pl-3 lg:mb-5 text-slate-800">
+                CONVENTION COMMUNITY CENTER
               </p>
-              <button className="border bg-orange-500 rounded-full px-3 mt-5 font-bold">
+              <Link
+                to="/center"
+                className=" bg-orange-500 rounded-full px-3 font-bold lg:ml-2 text-slate-800 py-2 border-0"
+              >
                 SEE DETAILS
-              </button>
+              </Link>
             </div>
           </a>
           <a target="_blank" href="" className="set-position">
-            <div className="">
+            <div className="" data-aos="fade-up" data-aos-duration="600">
               <img src="https://i.ibb.co/BjQg2bd/Phone-Hunter.png" alt="" />
             </div>
             <div className="detail">
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis
-                sequi vel cum aliquid cupiditate assumenda deleniti neque harum,
-                eveniet possimus!
+              <p className="lg:mt-14 font-bold lg:pl-3 lg:mb-5 text-slate-800">
+                PHONE HUNTER
               </p>
-              <button className="border bg-orange-500 rounded-full px-3 mt-5 font-bold">
+              <Link
+                to="/hunter"
+                className=" bg-orange-500 rounded-full px-3 font-bold lg:ml-2 text-slate-800 py-2 border-0"
+              >
                 SEE DETAILS
-              </button>
+              </Link>
             </div>
           </a>
           <a target="_blank" href="" className="set-position">
-            <div className="">
+            <div className="" data-aos="fade-up" data-aos-duration="600">
               <img src="https://i.ibb.co/w4F02Bn/Influencer-gear.png" alt="" />
             </div>
             <div className="detail">
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis
-                sequi vel cum aliquid cupiditate assumenda deleniti neque harum,
-                eveniet possimus!
+              <p className="lg:mt-14 font-bold lg:pl-3 lg:mb-5 text-slate-800">
+                INFLUENCER GEAR
               </p>
-              <button className="border bg-orange-500 rounded-full px-3 mt-5 font-bold">
+              <Link
+                to="/influencer"
+                className=" bg-orange-500 rounded-full px-3 font-bold lg:ml-2 text-slate-800 py-2 border-0"
+              >
                 SEE DETAILS
-              </button>
+              </Link>
             </div>
           </a>
           <a target="_blank" href="" className="set-position">
-            <div className="">
+            <div className="" data-aos="fade-up" data-aos-duration="600">
               <img src="https://i.ibb.co/Jm9Q8Pt/Insta-Sohor.png" alt="" />
             </div>
             <div className="detail">
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis
-                sequi vel cum aliquid cupiditate assumenda deleniti neque harum,
-                eveniet possimus!
+              <p className="lg:mt-14 font-bold lg:pl-3 lg:mb-5 text-slate-800">
+                INSTA SOHOR
               </p>
-              <button className="border bg-orange-500 rounded-full px-3 mt-5 font-bold">
+              <Link
+                to="/sohor"
+                className=" bg-orange-500 rounded-full px-3 font-bold lg:ml-2 text-slate-800 py-2 border-0"
+              >
                 SEE DETAILS
-              </button>
+              </Link>
             </div>
           </a>
         </div>

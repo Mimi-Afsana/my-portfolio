@@ -1,14 +1,21 @@
 import React from "react";
 import "./Services.css";
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+AOS.init();
 const Services = () => {
   return (
-    <div className=" text-center mb-5 lg:pl-32 lg:pr-20 lg:mt-8" id="services">
-      <h3 className=" lg:mb-10 text-4xl font-bold lg:pr-32 lg:pl-20">
+    <div className=" text-center mb-5 lg:pl-32 lg:pt-7 lg:pr-20 lg:mt-8" id="services">
+      <h3 className=" lg:mb-10 text-3xl font-bold ">
         <span className="text-white">MY</span>{" "}
         <span className="text-orange-300">SERVICES</span>
       </h3>
       <div className="services m-3 ">
-        <div className="mb-2 m-3 p-5 lg:mr-16 bg-slate-800 shadow-xl text-white">
+        <div
+          className="mb-2 m-3 p-5 lg:mr-16 bg-slate-800 shadow-xl text-white "
+          data-aos="zoom-in"
+          data-aos-duration="600"
+        >
           <img
             src="https://i.ibb.co/Y3ws49t/website-design.png"
             alt=""
@@ -22,7 +29,11 @@ const Services = () => {
             clips.
           </p>
         </div>
-        <div className=" mb-2 m-3 p-5 lg:mr-16 text-slate-700 bg-slate-400 shadow-xl">
+        <div
+          className=" mb-2 m-3 p-5 lg:mr-16 text-slate-700 bg-slate-400 shadow-xl"
+          data-aos="zoom-in"
+          data-aos-duration="600"
+        >
           <img
             src="https://i.ibb.co/Rvsmsv2/img1.png"
             alt=""
@@ -38,7 +49,11 @@ const Services = () => {
             applications orweb applications.
           </p>
         </div>
-        <div className="text-white mb-2 m-3 p-5 lg:mr-24 bg-slate-800 shadow-xl">
+        <div
+          className="text-white mb-2 m-3 p-5 lg:mr-24 bg-slate-800 shadow-xl"
+          data-aos="zoom-in"
+          data-aos-duration="600"
+        >
           <img
             src="https://i.ibb.co/dJfCC88/backend.png"
             alt=""

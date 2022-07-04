@@ -1,0 +1,17 @@
+.hover-header a:hover {
+  color: blueviolet;
+}
+
+.navbar {
+  background: transparent;
+  height: 80px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  color: white;
+}
+
+.navbar.active {
+  background-color: #00000095;
+  color: white;
+}

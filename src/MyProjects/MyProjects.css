@@ -23,7 +23,7 @@
 }
 .set-position:hover .detail {
   display: block;
-  background-color: rgba(199, 180, 134, 0.5);
+  background-color: rgba(199, 180, 134, 0.7);
   transition: 3s ease-in-out;
 }
 @media screen and (max-width: 576px) {

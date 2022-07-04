@@ -1,15 +1,31 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaPortrait } from "react-icons/fa";
+import "./Header.css";
 const Header = () => {
+  const [navbar, setNavbar] = useState(false);
+  const change = () => {
+    console.log(window.scrollY);
+    if (window.scrollY >= 80) {
+      setNavbar(true);
+    } else {
+      setNavbar(false);
+    }
+  };
+
+  window.addEventListener("scroll", change);
   const menuItems = (
     <>
       <li className="">
         <Link to="/">HOME</Link>
       </li>
+
       <li>
         <a href="#about">ABOUT</a>
       </li>
+      {/* <li>
+        <a href="fruitss#about">ABOUT</a>
+      </li> */}
       <li>
         <a href="#services">SERVICES</a>
       </li>
@@ -26,7 +42,7 @@ const Header = () => {
   );
 
   return (
-    <div className="bg-color mx-auto text-white">
+    <div className={navbar ? "navbar active" : "navbar"}>
       <div className="navbar lg:pl-32 lg:pr-36 mx-auto">
         <div className="navbar-start">
           <div className="dropdown">
@@ -48,7 +64,7 @@ const Header = () => {
             </label>
             <ul
               tabIndex="0"
-              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 text-black"
+              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52  text-black"
             >
               {menuItems}
             </ul>
@@ -59,7 +75,7 @@ const Header = () => {
           </a>
         </div>
         <div className="navbar-center hidden lg:flex lg:pr-36">
-          <ul className="menu menu-horizontal p-0">{menuItems}</ul>
+          <ul className="menu menu-horizontal p-0 ">{menuItems}</ul>
         </div>
       </div>
     </div>

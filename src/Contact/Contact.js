@@ -2,6 +2,9 @@ import React from "react";
 import "./Contact.css";
 import { FaVoicemail, FaPhoneVolume } from "react-icons/fa";
 import emailjs from "@emailjs/browser";
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+AOS.init();
 const Contact = () => {
   const sentEmail = (event) => {
     event.preventDefault();
@@ -51,12 +54,16 @@ const Contact = () => {
         <div></div>
       </div>
 
-      <div className="text-white">
+      <div
+        className="text-white"
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1500"
+      >
         <h1 className="lg:pr-96 text-3xl font-bold mt-10">
           GET IN <span className="text-orange-300">TOUCH</span>
         </h1>
         <form onSubmit={sentEmail}>
-          
           <input
             name="fname"
             type="text"
@@ -87,7 +94,7 @@ const Contact = () => {
           <input
             type="submit"
             value="SEND MESSAGE"
-            className="border border-orange-300 pl-8 pr-8 rounded-full lg:mt-4 text-white p-2 font-bold"
+            className="border border-orange-300 pl-8 pr-8 rounded lg:mt-4 text-white p-2 font-semi-bold wrapper hover-my"
           />
         </form>
       </div>

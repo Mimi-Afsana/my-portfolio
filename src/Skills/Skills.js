@@ -1,101 +1,289 @@
 import React from "react";
 import "./Skill.css";
+import {
+  CircularProgressbar,
+  CircularProgressbarWithChildren,
+  buildStyles,
+} from "react-circular-progressbar";
+import VisibilitySensor from "react-visibility-sensor";
+import "react-circular-progressbar/dist/styles.css";
 const Skills = () => {
   return (
-    <div className="text-white lg:pl-36 mx-auto lg:mt-16 p-10" id="skill">
-      <h1 className="text-center text-4xl font-bold mb-16 lg:pr-20 ">
+    <div className="text-white lg:pl-36 lg:pr-6 mx-auto  lg:mt-5" id="skill">
+      <h1 className="text-center text-3xl font-bold mb-16  lg:pt-6 lg:pr-20 ">
         MY <span className="text-orange-300">SKILLS</span>
       </h1>
+
       <div className="set-skill">
-        <div className="">
-          <div
-            class="radial-progress text-orange-300 lg:mb-16"
-            style={{ "--value": 95, "--size": "8rem", "--thickness": "8px" }}
-          >
-            <p className="text-white font-bold">HTML</p>
-            <p className="text-2xl text-white">90%</p>
-          </div>
+        <div className="text-center lg:mb-8" style={{ width: "135px" }}>
+          <VisibilitySensor>
+            {({ isVisible }) => {
+              const percentage = isVisible ? 98 : 0;
+
+              return (
+                <CircularProgressbarWithChildren
+                  value={percentage}
+                  strokeWidth={6}
+                  // text="HTML"
+                  // text={`${percentage}%`}
+                  styles={buildStyles({
+                    // textColor: "red",
+                    pathColor: "#fdba74",
+                    pathTransitionDuration: 3,
+                    trailColor: "black"
+                  })}
+                >
+                  <div>
+                    <p className="font-bold">HTML</p>
+                    <p className="text-2xl text-white text-center">{`${percentage}%`}</p>
+                  </div>
+                </CircularProgressbarWithChildren>
+              );
+            }}
+          </VisibilitySensor>
         </div>
-        <div className="lg:pl-20">
-          <div
-            class="radial-progress text-orange-300 "
-            style={{ "--value": 90, "--size": "8rem", "--thickness": "8px" }}
-          >
-            <p className="text-white text-center font-bold">CSS</p>
-            <p className="text-2xl text-white text-center">90%</p>
-          </div>
+        <div className="text-center lg:ml-16" style={{ width: "130px" }}>
+          <VisibilitySensor>
+            {({ isVisible }) => {
+              const percentage = isVisible ? 95 : 0;
+
+              return (
+                <CircularProgressbarWithChildren
+                  value={percentage}
+                  strokeWidth={6}
+                  // text="HTML"
+                  // text={`${percentage}%`}
+                  styles={buildStyles({
+                    // textColor: "red",
+                    pathColor: "#fdba74",
+                    pathTransitionDuration: 3,
+                    trailColor: "black"
+                  })}
+                >
+                  <div>
+                    <p className="font-bold">CSS</p>
+                    <p className="text-2xl text-white text-center">{`${percentage}%`}</p>
+                  </div>
+                </CircularProgressbarWithChildren>
+              );
+            }}
+          </VisibilitySensor>
         </div>
-        <div className="lg:pl-20 text-orange-300">
-          <div
-            class="radial-progress"
-            style={{ "--value": 87, "--size": "8rem", "--thickness": "8px" }}
-          >
-            <p className="font-bold text-white">JAVASCRIPT</p>
-            <p className="text-2xl text-white text-center">87%</p>
-          </div>
+        <div className="text-center lg:ml-16" style={{ width: "130px" }}>
+          <VisibilitySensor>
+            {({ isVisible }) => {
+              const percentage = isVisible ? 93 : 0;
+
+              return (
+                <CircularProgressbarWithChildren
+                  value={percentage}
+                  strokeWidth={6}
+                  // text="HTML"
+                  // text={`${percentage}%`}
+                  styles={buildStyles({
+                    // textColor: "red",
+                    pathColor: "#fdba74",
+                    pathTransitionDuration: 3,
+                    trailColor: "black"
+                  })}
+                >
+                  <div>
+                    <p className="font-bold">JAVASCRIPT</p>
+                    <p className="text-2xl text-white text-center">{`${percentage}%`}</p>
+                  </div>
+                </CircularProgressbarWithChildren>
+              );
+            }}
+          </VisibilitySensor>
         </div>
-        <div className="lg:pl-20 text-orange-300">
-          <div
-            class="radial-progress"
-            style={{ "--value": 87, "--size": "8rem", "--thickness": "8px" }}
-          >
-            <p className="font-bold text-white text-center">REACT</p>
-            <p className="text-2xl text-white text-center">87%</p>
-          </div>
+        <div className="text-center lg:ml-16" style={{ width: "130px" }}>
+          <VisibilitySensor>
+            {({ isVisible }) => {
+              const percentage = isVisible ? 94 : 0;
+
+              return (
+                <CircularProgressbarWithChildren
+                  value={percentage}
+                  strokeWidth={6}
+                  // text="HTML"
+                  // text={`${percentage}%`}
+                  styles={buildStyles({
+                    // textColor: "red",
+                    pathColor: "#fdba74",
+                    pathTransitionDuration: 3,
+                    trailColor: "black"
+                  })}
+                >
+                  <div>
+                    <p className="font-bold">REACT</p>
+                    <p className="text-2xl text-white text-center">{`${percentage}%`}</p>
+                  </div>
+                </CircularProgressbarWithChildren>
+              );
+            }}
+          </VisibilitySensor>
         </div>
-        <div className="set-skill lg:pl-20">
-          <div
-            class="radial-progress text-orange-300"
-            style={{ "--value": 97, "--size": "8rem", "--thickness": "8px" }}
-          >
-            <p className="font-bold text-white text-center">BOOTSTRAP</p>
-            <p className="text-2xl text-white text-center">97%</p>
-          </div>
+        <div className="text-center lg:ml-16" style={{ width: "130px" }}>
+          <VisibilitySensor>
+            {({ isVisible }) => {
+              const percentage = isVisible ? 98 : 0;
+
+              return (
+                <CircularProgressbarWithChildren
+                  value={percentage}
+                  strokeWidth={6}
+                  // text="HTML"
+                  // text={`${percentage}%`}
+                  styles={buildStyles({
+                    // textColor: "red",
+                    pathColor: "#fdba74",
+                    pathTransitionDuration: 6,
+                    trailColor: "black"
+                  })}
+                >
+                  <div>
+                    <p className="font-bold">BOOTSTRAP</p>
+                    <p className="text-2xl text-white text-center">{`${percentage}%`}</p>
+                  </div>
+                </CircularProgressbarWithChildren>
+              );
+            }}
+          </VisibilitySensor>
         </div>
-        <div>
-          <div
-            class="radial-progress text-orange-300"
-            style={{ "--value": 95, "--size": "8rem", "--thickness": "8px" }}
-          >
-            <p className="font-bold text-white text-center">TAILWIND</p>
-            <p className="text-2xl text-white text-center">95%</p>
-          </div>
+        <div className="text-center " style={{ width: "130px" }}>
+          <VisibilitySensor>
+            {({ isVisible }) => {
+              const percentage = isVisible ? 98 : 0;
+
+              return (
+                <CircularProgressbarWithChildren
+                  value={percentage}
+                  strokeWidth={6}
+                  // text="HTML"
+                  // text={`${percentage}%`}
+                  styles={buildStyles({
+                    // textColor: "red",
+                    pathColor: "#fdba74",
+                    pathTransitionDuration: 3,
+                    trailColor: "black"
+                  })}
+                >
+                  <div>
+                    <p className="font-bold ">TAILWIND</p>
+                    <p className="text-2xl text-white text-center">{`${percentage}%`}</p>
+                  </div>
+                </CircularProgressbarWithChildren>
+              );
+            }}
+          </VisibilitySensor>
         </div>
-        <div className="lg:pl-20">
-          <div
-            class="radial-progress text-orange-300"
-            style={{ "--value": 97, "--size": "8rem", "--thickness": "8px" }}
-          >
-            <p className="font-bold text-white text-center">DAISY UI</p>
-            <p className="text-2xl text-white text-center">97%</p>
-          </div>
+        <div className="text-center lg:ml-16" style={{ width: "130px" }}>
+          <VisibilitySensor>
+            {({ isVisible }) => {
+              const percentage = isVisible ? 98 : 0;
+
+              return (
+                <CircularProgressbarWithChildren
+                  value={percentage}
+                  strokeWidth={6}
+                  // text="HTML"
+                  // text={`${percentage}%`}
+                  styles={buildStyles({
+                    // textColor: "red",
+                    pathColor: "#fdba74",
+                    pathTransitionDuration: 3,
+                    trailColor: "black"
+                  })}
+                >
+                  <div>
+                    <p className="font-bold">DAISY UI</p>
+                    <p className="text-2xl text-white text-center">{`${percentage}%`}</p>
+                  </div>
+                </CircularProgressbarWithChildren>
+              );
+            }}
+          </VisibilitySensor>
         </div>
-        <div className="lg:pl-20">
-          <div
-            class="radial-progress mb-3 text-orange-300"
-            style={{ "--value": 87, "--size": "8rem", "--thickness": "8px" }}
-          >
-            <p className="font-bold text-white text-center">NODE JS</p>
-            <p className="text-2xl text-white text-center">87%</p>
-          </div>
+        <div className="text-center lg:ml-16" style={{ width: "130px" }}>
+          <VisibilitySensor>
+            {({ isVisible }) => {
+              const percentage = isVisible ? 84 : 0;
+
+              return (
+                <CircularProgressbarWithChildren
+                  value={percentage}
+                  strokeWidth={6}
+                  // text="HTML"
+                  // text={`${percentage}%`}
+                  styles={buildStyles({
+                    // textColor: "red",
+                    pathColor: "#fdba74",
+                    pathTransitionDuration: 3,
+                    trailColor: "black"
+                  })}
+                >
+                  <div>
+                    <p className="font-bold">NODE JS</p>
+                    <p className="text-2xl text-white text-center">{`${percentage}%`}</p>
+                  </div>
+                </CircularProgressbarWithChildren>
+              );
+            }}
+          </VisibilitySensor>
         </div>
-        <div className="lg:pl-20">
-          <div
-            class="radial-progress text-orange-300"
-            style={{ "--value": 87, "--size": "8rem", "--thickness": "6px" }}
-          >
-            <p className="font-bold text-white text-center">EXPRESS JS</p>
-            <p className="text-2xl text-white text-center">87%</p>
-          </div>
+        <div className="text-center lg:ml-16" style={{ width: "130px" }}>
+          <VisibilitySensor>
+            {({ isVisible }) => {
+              const percentage = isVisible ? 91 : 0;
+
+              return (
+                <CircularProgressbarWithChildren
+                  value={percentage}
+                  strokeWidth={6}
+                  // text="HTML"
+                  // text={`${percentage}%`}
+                  styles={buildStyles({
+                    // textColor: "red",
+                    pathColor: "#fdba74",
+                    pathTransitionDuration: 3,
+                    trailColor: "black"
+                  })}
+                >
+                  <div>
+                    <p className="font-bold">EXPRESS JS</p>
+                    <p className="text-2xl text-white text-center">{`${percentage}%`}</p>
+                  </div>
+                </CircularProgressbarWithChildren>
+              );
+            }}
+          </VisibilitySensor>
         </div>
-        <div className="lg:pl-20">
-          <div
-            class="radial-progress text-orange-300"
-            style={{ "--value": 85, "--size": "8rem", "--thickness": "6px" }}
-          >
-            <p className="font-bold text-white text-center">MONGO DB</p>
-            <p className="text-2xl text-white text-center">85%</p>
-          </div>
+        <div className="text-center lg:ml-16" style={{ width: "130px" }}>
+          <VisibilitySensor>
+            {({ isVisible }) => {
+              const percentage = isVisible ? 88 : 0;
+
+              return (
+                <CircularProgressbarWithChildren
+                  value={percentage}
+                  strokeWidth={6}
+                  // text="HTML"
+                  // text={`${percentage}%`}
+                  styles={buildStyles({
+                    // textColor: "red",
+                    pathColor: "#fdba74",
+                    pathTransitionDuration: 3,
+                    trailColor: "black"  
+                  })}
+                >
+                  <div>
+                    <p className="font-bold">MONGODB</p>
+                    <p className="text-2xl text-white text-center">{`${percentage}%`}</p>
+                  </div>
+                </CircularProgressbarWithChildren>
+              );
+            }}
+          </VisibilitySensor>
         </div>
       </div>
     </div>

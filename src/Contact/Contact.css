@@ -1,13 +1,4 @@
-.form-submit{
+.form-submit {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
-}
-
-@media screen and (max-width: 576px) {
-  .form-submit {
-    grid-template-columns: repeat(1, 1fr);
-    margin-left: 20px;
-    margin-right: 20px;
-    grid-gap: 20px;
-  }
+  grid-template-columns: repeat(2, 1fr);
 }
