@@ -3,21 +3,21 @@ import "./About.css";
 const About = () => {
   return (
     <div
-      className="text-white lg:mt-14 lg:pt-8 lg:pl-32 lg:pr-36 mx-auto"
+      className="text-white lg:pt-32 pt-28 lg:pl-32 lg:pr-36 mx-auto"
       id="about"
     >
-      <h1 className="lg:text-center lg:mb-14 mb-4 text-3xl font-bold pl-10">
+      <h1 className="lg:text-center lg:mb-20 mb-10 text-3xl font-semi-bold pl-40">
         ABOUT <span className="text-orange-300">ME</span>
       </h1>
-      <div className="about-div">
-        <div>
-          <h2 className="font-bold mb-4 text-xl">PERSONAL INFOS</h2>
+      <div className="about-div ml-1">
+        <div className="text-xl">
+          <h2 className="font-semi-bold mb-4 text-2xl ">PERSONAL INFOS</h2>
           <p className="mb-4">First Name : Afsana</p>
           <p className="mb-4">Last Name : Mimi</p>
           <p className="mb-4">Age : 22 Years</p>
           <p>Nationality : Bangladeshi</p>
         </div>
-        <div>
+        <div className="text-xl">
           <h2></h2>
           <p className="mb-4">Address : Kuala Lumpur, Malaysia</p>
           <p className="mb-4">Phone : +601137957340</p>

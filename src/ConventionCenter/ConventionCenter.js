@@ -3,32 +3,32 @@ import { FaDatabase, FaLocationArrow, FaGithub } from "react-icons/fa";
 
 const ConventionCenter = () => {
   return (
-    <div className="w-1/3 mx-auto">
+    <div className="lg:w-1/3 mx-auto my-fruit">
       <img
         src="https://i.ibb.co/Yfz9pkm/Convention-community-center.png"
         alt=""
       />
-      <h1 className="text-3xl lg:mt-10 text-slate-400 font-bold">
+      <h1 className="text-3xl lg:mt-10 mt-10 mb-10 text-slate-400 font-bold system">
         CONVENTION COMMUNITY CENTER
       </h1>
-      <button className="bg-orange-300 lg:mt-3 lg:px-4 lg:py-1 rounded">
+      <button className="bg-orange-300 lg:mt-3 mt-3 lg:px-4 lg:py-1 px-4 py-1 rounded system">
         HTML
       </button>
-      <button className="bg-orange-300 lg:mt-3 lg:px-4 lg:py-1 rounded lg:ml-3">
+      <button className="bg-orange-300 lg:mt-3 mt-3 lg:px-4  lg:py-1 px-4 py-1 rounded lg:ml-3 ml-3">
         CSS
       </button>
 
-      <h1 className=" bg-slate-600 lg:mt-10 lg:p-2 rounded-full text-center text-2xl font-bold text-slate-400 shadow-2xl">
+      <h1 className=" bg-slate-600 lg:mt-10 mt-10 lg:p-2 rounded-full text-center text-2xl font-bold text-slate-400 shadow-2xl mmy-fruit">
         Project Details :
       </h1>
-      <p className="mt-10 text-slate-400">
+      <p className="mt-10 text-slate-400 mmy-fruit">
         ● This is website about convention community center
       </p>
-      <p className="mt-4 text-slate-400">
+      <p className="mt-10 text-slate-400 mmy-fruit">
         ● Here showing different types of booking package.Basic package,
         Standard package and Special package.
       </p>
-      <p className="mt-4 text-slate-400">
+      <p className="mt-10 text-slate-400 mmy-fruit">
         ● There got a simple form and a footer.
       </p>
 
@@ -37,7 +37,7 @@ const ConventionCenter = () => {
         href="https://clever-curran-convention-center.netlify.app/"
         className=""
       >
-        <button className="p-4 bg-sky-900 rounded lg:mb-10 lg:mt-6">
+        <button className="p-4 bg-sky-900 rounded lg:mb-10 mb-10 lg:mt-12 mt-12 live-fruit">
           <FaLocationArrow className="lg:w-20 mb-2 text-white text-xl"></FaLocationArrow>
           <span className="font-bold text-white"> Live Website</span>
         </button>

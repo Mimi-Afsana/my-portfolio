@@ -9,10 +9,10 @@ const MyProjects = () => {
   return (
     <div>
       <div
-        className="text-white projects-information lg:pl-40 lg:pr-40 mb-10 pb-10 "
+        className="text-white projects-information lg:pl-36 lg:pr-40 pb-10 "
         id="portfolio"
       >
-        <h3 className="text-center font-bold text-3xl mb-5 lg:pt-7 lg:pb-2 lg:mt-12 lg:mb-12">
+        <h3 className="text-center font-semi-bold text-3xl mb-8 lg:pt-24 pt-24 lg:pb-10">
           MY <span className="text-orange-300 ">PROJECTS</span>
         </h3>
 
@@ -26,7 +26,7 @@ const MyProjects = () => {
             </div>
             <div className="detail">
               <p>
-                <p className="lg:mt-14 font-bold lg:pl-3 lg:mb-5 text-slate-800">
+                <p className="lg:mt-14 mt-14 font-bold lg:pl-3 lg:mb-5 mb-5 text-slate-800">
                   FRUITS WAREHOUSE MANAGEMENT SYSTEM
                 </p>
               </p>
@@ -38,7 +38,7 @@ const MyProjects = () => {
               </Link>
             </div>
           </a>
-          <a target="_blank" href="" className="set-position">
+          <a target="_blank" className="set-position">
             <div className="" data-aos="fade-up" data-aos-duration="600">
               <img
                 src="https://i.ibb.co/gTTWwd3/Refrigerator-Parts-Manufracturer-Website-2.png"
@@ -47,7 +47,7 @@ const MyProjects = () => {
             </div>
             <div className="detail">
               <p>
-                <p className="lg:mt-14 font-bold lg:pl-3 lg:mb-5 text-slate-800">
+                <p className="lg:mt-14 mt-14 font-bold lg:pl-3 lg:mb-5 mb-5 text-slate-800">
                   REFRIGERATOR PARTS MANUFRACTURER
                 </p>
               </p>
@@ -59,13 +59,13 @@ const MyProjects = () => {
               </Link>
             </div>
           </a>
-          <a target="_blank" href="" className="set-position">
+          <a target="_blank" className="set-position">
             <div className="" data-aos="fade-up" data-aos-duration="600">
               <img src="https://i.ibb.co/xDMm6DD/MEDICAL-CARE-2.png" alt="" />
             </div>
             <div className="detail">
               <p>
-                <p className="lg:mt-14 font-bold lg:pl-3 lg:mb-5 text-slate-800">
+                <p className="lg:mt-14 mt-14 font-bold lg:pl-3 lg:mb-5 mb-5  text-slate-800">
                   MEDICAL CARE
                 </p>
               </p>
@@ -77,12 +77,12 @@ const MyProjects = () => {
               </Link>
             </div>
           </a>
-          <a target="_blank" href="" className="set-position">
+          <a target="_blank" className="set-position">
             <div className="" data-aos="fade-up" data-aos-duration="600">
               <img src="https://i.ibb.co/6gn2rms/Money-master.png" alt="" />
             </div>
             <div className="detail">
-              <p className="lg:mt-14 font-bold lg:pl-3 lg:mb-5 text-slate-800">
+              <p className="lg:mt-14 mt-14 font-bold lg:pl-3 lg:mb-5 mb-5 text-slate-800">
                 MONEY MASTER
               </p>
               <Link
@@ -93,7 +93,7 @@ const MyProjects = () => {
               </Link>
             </div>
           </a>
-          <a target="_blank" href="" className="set-position">
+          <a target="_blank" className="set-position">
             <div className="" data-aos="fade-up" data-aos-duration="600">
               <img
                 src="https://i.ibb.co/Yfz9pkm/Convention-community-center.png"
@@ -101,7 +101,7 @@ const MyProjects = () => {
               />
             </div>
             <div className="detail">
-              <p className="lg:mt-14 font-bold lg:pl-3 lg:mb-5 text-slate-800">
+              <p className="lg:mt-14 mt-14 font-bold lg:pl-3 lg:mb-5 mb-5 text-slate-800">
                 CONVENTION COMMUNITY CENTER
               </p>
               <Link
@@ -112,12 +112,12 @@ const MyProjects = () => {
               </Link>
             </div>
           </a>
-          <a target="_blank" href="" className="set-position">
+          <a target="_blank" className="set-position">
             <div className="" data-aos="fade-up" data-aos-duration="600">
               <img src="https://i.ibb.co/BjQg2bd/Phone-Hunter.png" alt="" />
             </div>
             <div className="detail">
-              <p className="lg:mt-14 font-bold lg:pl-3 lg:mb-5 text-slate-800">
+              <p className="lg:mt-14 mt-14 font-bold lg:pl-3 lg:mb-5 mb-5 text-slate-800">
                 PHONE HUNTER
               </p>
               <Link
@@ -128,12 +128,12 @@ const MyProjects = () => {
               </Link>
             </div>
           </a>
-          <a target="_blank" href="" className="set-position">
+          <a target="_blank" className="set-position">
             <div className="" data-aos="fade-up" data-aos-duration="600">
               <img src="https://i.ibb.co/w4F02Bn/Influencer-gear.png" alt="" />
             </div>
             <div className="detail">
-              <p className="lg:mt-14 font-bold lg:pl-3 lg:mb-5 text-slate-800">
+              <p className="lg:mt-14 mt-14 font-bold lg:pl-3 lg:mb-5 mb-5 text-slate-800">
                 INFLUENCER GEAR
               </p>
               <Link
@@ -144,12 +144,12 @@ const MyProjects = () => {
               </Link>
             </div>
           </a>
-          <a target="_blank" href="" className="set-position">
+          <a target="_blank" className="set-position">
             <div className="" data-aos="fade-up" data-aos-duration="600">
               <img src="https://i.ibb.co/Jm9Q8Pt/Insta-Sohor.png" alt="" />
             </div>
             <div className="detail">
-              <p className="lg:mt-14 font-bold lg:pl-3 lg:mb-5 text-slate-800">
+              <p className="lg:mt-14 mt-14 font-bold lg:pl-3 lg:mb-5 mb-5 text-slate-800">
                 INSTA SOHOR
               </p>
               <Link

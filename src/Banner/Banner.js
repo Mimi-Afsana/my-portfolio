@@ -18,7 +18,7 @@ const Banner = () => {
   //   console.log(count)}
   // }
   return (
-    <div class=" lg:mt-10 lg:pl-32 mx-auto banner-width pl-5" id="header">
+    <div class=" lg:mt-10 lg:pl-32 mx-auto banner-width" id="header">
       <div className="card-side banner-grid lg:flex">
         <div className="">
           <img
@@ -31,7 +31,7 @@ const Banner = () => {
         </div>
 
         <div class="lg:mr-28 lg:ml-16">
-          <h2 class="card-title text-orange-300 text-4xl lg:pl-48 lg:mt-12 font-semi-bold mb-2 mt-5">
+          <h2 class="card-title text-orange-300 text-4xl lg:pl-48 lg:mt-4 font-semi-bold mb-2 mt-5 pl-24">
             I'M
             <Typewriter
               options={{
@@ -44,12 +44,12 @@ const Banner = () => {
             />
           </h2>
 
-          <h2 className="card-title text-white text-4xl lg:pl-48 font-semi-bold mb-10 mt-5">
+          <h2 className="card-title text-white text-4xl lg:pl-48 font-semi-bold mb-10 mt-5 pl-28">
             {" "}
             <span>WEB DEVELOPER</span>
           </h2>
           <p
-            className="text-white lg:pl-48 mb-3 text-xl height-set lg:pr-32
+            className="text-white lg:pl-48 mb-3 text-xl height-set lg:pr-32 pr-8 pl-10
         "
           >
             I’m a web designer & web developer focused on crafting clean &
@@ -57,7 +57,7 @@ const Banner = () => {
             building excellent website for all of my clients.
           </p>
           <p
-            className="text-white lg:pl-48 text-xl height-set lg:pr-32
+            className="text-white lg:pl-48 text-xl height-set lg:pr-32 pr-8 pl-10
         "
           >
             Well-organised person, problem solver, independent employee with
@@ -73,7 +73,7 @@ const Banner = () => {
               MY FULL INFORMATION
             </a>
           </div> */}
-          <div class="lg:pl-48 lg:mt-20 sm:pb-20">
+          <div class="lg:pl-48 lg:mt-20 sm:pb-20 pl-24 mt-8 ml-3">
             <a
               target="_blank"
               href="#about"

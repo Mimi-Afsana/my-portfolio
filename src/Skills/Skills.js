@@ -9,13 +9,13 @@ import VisibilitySensor from "react-visibility-sensor";
 import "react-circular-progressbar/dist/styles.css";
 const Skills = () => {
   return (
-    <div className="text-white lg:pl-36 lg:pr-6 mx-auto  lg:mt-5" id="skill">
-      <h1 className="text-center text-3xl font-bold mb-16  lg:pt-6 lg:pr-20 ">
+    <div className="text-white lg:pl-36 lg:pr-6 mx-auto lg:pt-28 pt-24" id="skill">
+      <h1 className="text-center text-3xl font-semi-bold mb-16  lg:pt-6 lg:pr-20 ">
         MY <span className="text-orange-300">SKILLS</span>
       </h1>
 
-      <div className="set-skill">
-        <div className="text-center lg:mb-8" style={{ width: "135px" }}>
+      <div className="set-skill pl-20">
+        <div className="text-center lg:mb-8 mb-8" style={{ width: "135px" }}>
           <VisibilitySensor>
             {({ isVisible }) => {
               const percentage = isVisible ? 98 : 0;
@@ -34,7 +34,7 @@ const Skills = () => {
                   })}
                 >
                   <div>
-                    <p className="font-bold">HTML</p>
+                    <p className="font-semi-bold">HTML</p>
                     <p className="text-2xl text-white text-center">{`${percentage}%`}</p>
                   </div>
                 </CircularProgressbarWithChildren>
@@ -42,7 +42,7 @@ const Skills = () => {
             }}
           </VisibilitySensor>
         </div>
-        <div className="text-center lg:ml-16" style={{ width: "130px" }}>
+        <div className="text-center lg:ml-16" style={{ width: "135px" }}>
           <VisibilitySensor>
             {({ isVisible }) => {
               const percentage = isVisible ? 95 : 0;
@@ -61,7 +61,7 @@ const Skills = () => {
                   })}
                 >
                   <div>
-                    <p className="font-bold">CSS</p>
+                    <p className="font-semi-bold">CSS</p>
                     <p className="text-2xl text-white text-center">{`${percentage}%`}</p>
                   </div>
                 </CircularProgressbarWithChildren>
@@ -69,7 +69,7 @@ const Skills = () => {
             }}
           </VisibilitySensor>
         </div>
-        <div className="text-center lg:ml-16" style={{ width: "130px" }}>
+        <div className="text-center lg:ml-16" style={{ width: "135px" }}>
           <VisibilitySensor>
             {({ isVisible }) => {
               const percentage = isVisible ? 93 : 0;
@@ -88,7 +88,7 @@ const Skills = () => {
                   })}
                 >
                   <div>
-                    <p className="font-bold">JAVASCRIPT</p>
+                    <p className="font-semi-bold">JAVASCRIPT</p>
                     <p className="text-2xl text-white text-center">{`${percentage}%`}</p>
                   </div>
                 </CircularProgressbarWithChildren>
@@ -96,7 +96,7 @@ const Skills = () => {
             }}
           </VisibilitySensor>
         </div>
-        <div className="text-center lg:ml-16" style={{ width: "130px" }}>
+        <div className="text-center lg:ml-16" style={{ width: "135px" }}>
           <VisibilitySensor>
             {({ isVisible }) => {
               const percentage = isVisible ? 94 : 0;
@@ -115,7 +115,7 @@ const Skills = () => {
                   })}
                 >
                   <div>
-                    <p className="font-bold">REACT</p>
+                    <p className="font-semi-bold">REACT</p>
                     <p className="text-2xl text-white text-center">{`${percentage}%`}</p>
                   </div>
                 </CircularProgressbarWithChildren>
@@ -123,7 +123,7 @@ const Skills = () => {
             }}
           </VisibilitySensor>
         </div>
-        <div className="text-center lg:ml-16" style={{ width: "130px" }}>
+        <div className="text-center lg:ml-16" style={{ width: "135px" }}>
           <VisibilitySensor>
             {({ isVisible }) => {
               const percentage = isVisible ? 98 : 0;
@@ -142,7 +142,7 @@ const Skills = () => {
                   })}
                 >
                   <div>
-                    <p className="font-bold">BOOTSTRAP</p>
+                    <p className="font-semi-bold">BOOTSTRAP</p>
                     <p className="text-2xl text-white text-center">{`${percentage}%`}</p>
                   </div>
                 </CircularProgressbarWithChildren>
@@ -150,7 +150,7 @@ const Skills = () => {
             }}
           </VisibilitySensor>
         </div>
-        <div className="text-center " style={{ width: "130px" }}>
+        <div className="text-center " style={{ width: "135px" }}>
           <VisibilitySensor>
             {({ isVisible }) => {
               const percentage = isVisible ? 98 : 0;
@@ -169,7 +169,7 @@ const Skills = () => {
                   })}
                 >
                   <div>
-                    <p className="font-bold ">TAILWIND</p>
+                    <p className="font-semi-bold ">TAILWIND</p>
                     <p className="text-2xl text-white text-center">{`${percentage}%`}</p>
                   </div>
                 </CircularProgressbarWithChildren>
@@ -177,7 +177,7 @@ const Skills = () => {
             }}
           </VisibilitySensor>
         </div>
-        <div className="text-center lg:ml-16" style={{ width: "130px" }}>
+        <div className="text-center lg:ml-16" style={{ width: "135px" }}>
           <VisibilitySensor>
             {({ isVisible }) => {
               const percentage = isVisible ? 98 : 0;
@@ -196,7 +196,7 @@ const Skills = () => {
                   })}
                 >
                   <div>
-                    <p className="font-bold">DAISY UI</p>
+                    <p className="font-semi-bold">DAISY UI</p>
                     <p className="text-2xl text-white text-center">{`${percentage}%`}</p>
                   </div>
                 </CircularProgressbarWithChildren>
@@ -204,7 +204,7 @@ const Skills = () => {
             }}
           </VisibilitySensor>
         </div>
-        <div className="text-center lg:ml-16" style={{ width: "130px" }}>
+        <div className="text-center lg:ml-16" style={{ width: "135px" }}>
           <VisibilitySensor>
             {({ isVisible }) => {
               const percentage = isVisible ? 84 : 0;
@@ -223,7 +223,7 @@ const Skills = () => {
                   })}
                 >
                   <div>
-                    <p className="font-bold">NODE JS</p>
+                    <p className="font-semi-bold">NODE JS</p>
                     <p className="text-2xl text-white text-center">{`${percentage}%`}</p>
                   </div>
                 </CircularProgressbarWithChildren>
@@ -231,7 +231,7 @@ const Skills = () => {
             }}
           </VisibilitySensor>
         </div>
-        <div className="text-center lg:ml-16" style={{ width: "130px" }}>
+        <div className="text-center lg:ml-16" style={{ width: "135px" }}>
           <VisibilitySensor>
             {({ isVisible }) => {
               const percentage = isVisible ? 91 : 0;
@@ -250,7 +250,7 @@ const Skills = () => {
                   })}
                 >
                   <div>
-                    <p className="font-bold">EXPRESS JS</p>
+                    <p className="font-semi-bold">EXPRESS JS</p>
                     <p className="text-2xl text-white text-center">{`${percentage}%`}</p>
                   </div>
                 </CircularProgressbarWithChildren>
@@ -258,7 +258,7 @@ const Skills = () => {
             }}
           </VisibilitySensor>
         </div>
-        <div className="text-center lg:ml-16" style={{ width: "130px" }}>
+        <div className="text-center lg:ml-16" style={{ width: "135px" }}>
           <VisibilitySensor>
             {({ isVisible }) => {
               const percentage = isVisible ? 88 : 0;
@@ -277,7 +277,7 @@ const Skills = () => {
                   })}
                 >
                   <div>
-                    <p className="font-bold">MONGODB</p>
+                    <p className="font-semi-bold">MONGODB</p>
                     <p className="text-2xl text-white text-center">{`${percentage}%`}</p>
                   </div>
                 </CircularProgressbarWithChildren>

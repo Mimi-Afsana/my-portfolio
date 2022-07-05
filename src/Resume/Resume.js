@@ -21,7 +21,7 @@ const Resume = () => {
         <FaArrowAltCircleDown className="lg:ml-4 ml-3 lg:mt-5 text-white mb-5 mt-5"></FaArrowAltCircleDown>
       </div> */}
 
-      <div>
+      <div className="pl-24 mt-8 ml-1">
         <a
           target="_blank"
           href="https://drive.google.com/file/d/1AKAG-W6Edqx0azBV6u76BgXBd1sAZW4e/view?usp=sharing"

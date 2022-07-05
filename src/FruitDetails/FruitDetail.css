@@ -1,0 +1,28 @@
+.my-fruit img {
+}
+
+@media screen and (max-width: 576px) {
+  .my-fruit img {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .system {
+    margin-left: 10%;
+  }
+  .boots {
+    margin-right: 10px;
+  }
+  .mmy-fruit {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .live-fruit {
+    margin-left: 10%;
+    margin-right: 2%;
+  }
+
+  .server-code {
+    margin-left: 2%;
+  }
+}
