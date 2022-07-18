@@ -50,7 +50,7 @@ const Services = () => {
           </p>
         </div>
         <div
-          className="text-white mb-2 m-3 p-5 lg:mr-24 bg-slate-800 shadow-xl"
+          className="text-white mb-2 m-3 p-5 lg:mr-16 bg-slate-800 shadow-xl"
           data-aos="zoom-in"
           data-aos-duration="600"
         >
