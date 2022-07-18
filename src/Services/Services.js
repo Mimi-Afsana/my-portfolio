@@ -5,7 +5,7 @@ import "aos/dist/aos.css"; // You can also use <link> for styles
 AOS.init();
 const Services = () => {
   return (
-    <div className=" text-center lg:pl-32 pl-6 pr-6 lg:pr-20" id="services">
+    <div className=" text-center lg:pl-32 pl-3 pr-3 lg:pr-20" id="services">
       <h3 className=" lg:mb-10 mb-10 text-3xl font-semi-bold lg:pt-32 pt-24">
         <span className="text-white">MY</span>{" "}
         <span className="text-orange-300">SERVICES</span>
@@ -20,7 +20,7 @@ const Services = () => {
             src="https://i.ibb.co/Y3ws49t/website-design.png"
             alt=""
             width="60px"
-            className="lg:ml-48 lg:mb-2 ml-40 mb-4"
+            className="lg:ml-48 lg:mb-2 ml-14 mb-4"
           />
           <h3 className="text-xl font-semi-bold lg:mb-4 mb-4">WEB DESIGN</h3>
           <p className="text-xl">
@@ -38,7 +38,7 @@ const Services = () => {
             src="https://i.ibb.co/Rvsmsv2/img1.png"
             alt=""
             width="80px"
-            className="lg:ml-48 lg:mb-3 mb-4 ml-40"
+            className="lg:ml-48 lg:mb-3 mb-4 ml-14"
           />
           <h3 className="text-xl font-semi-bold lg:mb-4 mb-4">
             FRONT-END DEVELOPMENT
@@ -58,7 +58,7 @@ const Services = () => {
             src="https://i.ibb.co/dJfCC88/backend.png"
             alt=""
             width="50px"
-            className="lg:ml-48 lg:mb-3 ml-40 mb-4"
+            className="lg:ml-48 lg:mb-3 ml-14 mb-4"
           />
           <h3 className="text-xl font-semi-bold lg:mb-4 mb-4">
             BACK-END DEVELOPMENT
