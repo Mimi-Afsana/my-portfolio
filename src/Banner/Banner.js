@@ -31,7 +31,7 @@ const Banner = () => {
         </div>
 
         <div class="lg:mr-28 lg:ml-16">
-          <h2 class="card-title text-orange-300 text-4xl lg:pl-48 lg:mt-4 font-semi-bold mb-2 mt-5 pl-24">
+          <h2 class="card-title text-orange-300 text-4xl lg:pl-48 lg:mt-4 font-semi-bold mb-2 mt-5 ml-12">
             I'M
             <Typewriter
               options={{
@@ -44,7 +44,7 @@ const Banner = () => {
             />
           </h2>
 
-          <h2 className="card-title text-white text-4xl lg:pl-48 font-semi-bold mb-10 mt-5 pl-24">
+          <h2 className="card-title text-white text-4xl lg:pl-48 font-semi-bold mb-10 mt-5 ml-12">
             {" "}
             <span>WEB DEVELOPER</span>
           </h2>
@@ -73,7 +73,7 @@ const Banner = () => {
               MY FULL INFORMATION
             </a>
           </div> */}
-          <div class="lg:pl-48 lg:mt-20 sm:pb-20 pl-24 mt-8 ml-3">
+          <div class="lg:pl-48 lg:mt-20 sm:pb-20 mt-8 ml-10">
             <a
               target="_blank"
               href="#about"

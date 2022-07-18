@@ -9,12 +9,15 @@ import VisibilitySensor from "react-visibility-sensor";
 import "react-circular-progressbar/dist/styles.css";
 const Skills = () => {
   return (
-    <div className="text-white lg:pl-36 lg:pr-6 mx-auto lg:pt-28 pt-24" id="skill">
+    <div
+      className="text-white lg:pl-20 lg:pr-6 mx-auto lg:pt-28 pt-24"
+      id="skill"
+    >
       <h1 className="text-center text-3xl font-semi-bold mb-16  lg:pt-6 lg:pr-20 ">
         MY <span className="text-orange-300">SKILLS</span>
       </h1>
 
-      <div className="set-skill pl-20">
+      <div className="set-skill pl-16">
         <div className="text-center lg:mb-8 mb-8" style={{ width: "135px" }}>
           <VisibilitySensor>
             {({ isVisible }) => {
@@ -30,7 +33,7 @@ const Skills = () => {
                     // textColor: "red",
                     pathColor: "#fdba74",
                     pathTransitionDuration: 3,
-                    trailColor: "black"
+                    trailColor: "black",
                   })}
                 >
                   <div>
@@ -57,7 +60,7 @@ const Skills = () => {
                     // textColor: "red",
                     pathColor: "#fdba74",
                     pathTransitionDuration: 3,
-                    trailColor: "black"
+                    trailColor: "black",
                   })}
                 >
                   <div>
@@ -84,7 +87,7 @@ const Skills = () => {
                     // textColor: "red",
                     pathColor: "#fdba74",
                     pathTransitionDuration: 3,
-                    trailColor: "black"
+                    trailColor: "black",
                   })}
                 >
                   <div>
@@ -111,7 +114,7 @@ const Skills = () => {
                     // textColor: "red",
                     pathColor: "#fdba74",
                     pathTransitionDuration: 3,
-                    trailColor: "black"
+                    trailColor: "black",
                   })}
                 >
                   <div>
@@ -138,7 +141,7 @@ const Skills = () => {
                     // textColor: "red",
                     pathColor: "#fdba74",
                     pathTransitionDuration: 6,
-                    trailColor: "black"
+                    trailColor: "black",
                   })}
                 >
                   <div>
@@ -165,7 +168,7 @@ const Skills = () => {
                     // textColor: "red",
                     pathColor: "#fdba74",
                     pathTransitionDuration: 3,
-                    trailColor: "black"
+                    trailColor: "black",
                   })}
                 >
                   <div>
@@ -192,7 +195,7 @@ const Skills = () => {
                     // textColor: "red",
                     pathColor: "#fdba74",
                     pathTransitionDuration: 3,
-                    trailColor: "black"
+                    trailColor: "black",
                   })}
                 >
                   <div>
@@ -219,7 +222,7 @@ const Skills = () => {
                     // textColor: "red",
                     pathColor: "#fdba74",
                     pathTransitionDuration: 3,
-                    trailColor: "black"
+                    trailColor: "black",
                   })}
                 >
                   <div>
@@ -246,7 +249,7 @@ const Skills = () => {
                     // textColor: "red",
                     pathColor: "#fdba74",
                     pathTransitionDuration: 3,
-                    trailColor: "black"
+                    trailColor: "black",
                   })}
                 >
                   <div>
@@ -273,7 +276,7 @@ const Skills = () => {
                     // textColor: "red",
                     pathColor: "#fdba74",
                     pathTransitionDuration: 3,
-                    trailColor: "black"  
+                    trailColor: "black",
                   })}
                 >
                   <div>

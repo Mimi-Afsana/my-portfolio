@@ -3,10 +3,10 @@ import "./About.css";
 const About = () => {
   return (
     <div
-      className="text-white lg:pt-32 pt-28 lg:pl-32 lg:pr-36 mx-auto"
+      className="text-white lg:pt-32 pt-20 lg:pl-40 lg:pr-36 mx-auto"
       id="about"
     >
-      <h1 className="lg:text-center lg:mb-20 mb-10 text-3xl font-semi-bold pl-40">
+      <h1 className="lg:text-center lg:mb-20 mb-10 text-3xl font-semi-bold ml-10">
         ABOUT <span className="text-orange-300">ME</span>
       </h1>
       <div className="about-div ml-1">
