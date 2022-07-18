@@ -37,7 +37,7 @@ const Services = () => {
           <img
             src="https://i.ibb.co/Rvsmsv2/img1.png"
             alt=""
-            width="80px"
+            width="60px"
             className="lg:ml-48 lg:mb-3 mb-4 ml-28"
           />
           <h3 className="text-xl font-semi-bold lg:mb-4 mb-4">
