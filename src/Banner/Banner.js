@@ -73,7 +73,7 @@ const Banner = () => {
               MY FULL INFORMATION
             </a>
           </div> */}
-          <div class="lg:pl-48 lg:mt-20 sm:pb-20 mt-8 ml-8">
+          <div class="lg:pl-48 lg:mt-20 sm:pb-20 mt-8 ml-7">
             <a
               target="_blank"
               href="#about"
