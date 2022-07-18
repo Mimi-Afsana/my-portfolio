@@ -12,17 +12,11 @@ const About = () => {
       <div className="about-div ml-1">
         <div className="text-xl">
           <h2 className="font-semi-bold mb-4 text-2xl ">PERSONAL INFOS</h2>
-          <p className="mb-4">First Name : Afsana</p>
-          <p className="mb-4">Last Name : Mimi</p>
+          <p className="mb-4">First Name : Afsana Mimi</p>
           <p className="mb-4">Age : 22 Years</p>
-          <p>Nationality : Bangladeshi</p>
-        </div>
-        <div className="text-xl">
-          <h2></h2>
           <p className="mb-4">Address : Kuala Lumpur, Malaysia</p>
-          <p className="mb-4">Phone : +601137957340</p>
-          <p className="mb-4">Email : afsanamimi61220@gmail.com</p>
-          <p className="mb-4">Language : English, Bangla, Hindi, Urdo.</p>
+
+          <p>Nationality : Bangladeshi</p>
         </div>
 
         <div className="text-center">

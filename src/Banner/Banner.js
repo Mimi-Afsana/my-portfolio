@@ -44,7 +44,7 @@ const Banner = () => {
             />
           </h2>
 
-          <h2 className="card-title text-white text-4xl lg:pl-48 font-semi-bold mb-10 mt-5 pl-28">
+          <h2 className="card-title text-white text-4xl lg:pl-48 font-semi-bold mb-10 mt-5 pl-24">
             {" "}
             <span>WEB DEVELOPER</span>
           </h2>
