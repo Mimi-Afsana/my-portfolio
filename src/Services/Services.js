@@ -37,8 +37,8 @@ const Services = () => {
           <img
             src="https://i.ibb.co/Rvsmsv2/img1.png"
             alt=""
-            width="60px"
-            className="lg:mb-3 mb-4 ml-28"
+            width="90px"
+            className="lg:mb-3 mb-4 lg:pl-2 sm:ml-28"
           />
           <h3 className="text-xl font-semi-bold lg:mb-4 mb-4">
             FRONT-END DEVELOPMENT
@@ -57,8 +57,8 @@ const Services = () => {
           <img
             src="https://i.ibb.co/dJfCC88/backend.png"
             alt=""
-            width="40px"
-            className="lg:mb-3 sm:ml-28 mb-4"
+            width="60px"
+            className="lg:mb-3 lg:pl-2 sm:ml-28 mb-4"
           />
           <h3 className="text-xl font-semi-bold lg:mb-4 mb-4">
             BACK-END DEVELOPMENT
