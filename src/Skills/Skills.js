@@ -17,7 +17,7 @@ const Skills = () => {
         MY <span className="text-orange-300">SKILLS</span>
       </h1>
 
-      <div className="set-skill max-w-7xl mx-auto sm:pl-9">
+      <div className="set-skill max-w-7xl mx-auto">
         <div className="text-center lg:mb-8 mb-8" style={{ width: "135px" }}>
           <VisibilitySensor>
             {({ isVisible }) => {

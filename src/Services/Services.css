@@ -7,8 +7,8 @@
 @media screen and (max-width: 576px) {
   .services {
     grid-template-columns: repeat(1, 1fr);
-    margin-left: 35px;
-    margin-right: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
     grid-gap: 20px;
   }
 }

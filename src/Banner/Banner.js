@@ -28,7 +28,7 @@ const Banner = () => {
             data-aos="flip-left"
             data-aos-duration="600"
           />
-          <div class=" lg:mt-16 mt-6 lg:ml-7 ml-10 pl-1">
+          <div class=" lg:mt-16 mt-6 lg:ml-7 ml-8 pl-1">
             <a
               target="_blank"
               href="#about"
