@@ -10,14 +10,14 @@ import "react-circular-progressbar/dist/styles.css";
 const Skills = () => {
   return (
     <div
-      className="text-white lg:pl-20 lg:pr-6 mx-auto lg:pt-28 pt-24"
+      className="text-white mx-auto lg:pt-28 pt-24"
       id="skill"
     >
-      <h1 className="text-center text-3xl font-semi-bold mb-16  lg:pt-6 lg:pr-20 ">
+      <h1 className="text-center text-3xl font-semi-bold mb-16  lg:pt-6 ">
         MY <span className="text-orange-300">SKILLS</span>
       </h1>
 
-      <div className="set-skill lg:pl-20 pl-9">
+      <div className="set-skill lg:pl-40 pl-9">
         <div className="text-center lg:mb-8 mb-8" style={{ width: "135px" }}>
           <VisibilitySensor>
             {({ isVisible }) => {
@@ -45,7 +45,7 @@ const Skills = () => {
             }}
           </VisibilitySensor>
         </div>
-        <div className="text-center lg:ml-16" style={{ width: "135px" }}>
+        <div className="text-center" style={{ width: "135px" }}>
           <VisibilitySensor>
             {({ isVisible }) => {
               const percentage = isVisible ? 95 : 0;
@@ -72,7 +72,7 @@ const Skills = () => {
             }}
           </VisibilitySensor>
         </div>
-        <div className="text-center lg:ml-16" style={{ width: "135px" }}>
+        <div className="text-center" style={{ width: "135px" }}>
           <VisibilitySensor>
             {({ isVisible }) => {
               const percentage = isVisible ? 93 : 0;
@@ -99,7 +99,7 @@ const Skills = () => {
             }}
           </VisibilitySensor>
         </div>
-        <div className="text-center lg:ml-16" style={{ width: "135px" }}>
+        <div className="text-center" style={{ width: "135px" }}>
           <VisibilitySensor>
             {({ isVisible }) => {
               const percentage = isVisible ? 94 : 0;
@@ -126,7 +126,7 @@ const Skills = () => {
             }}
           </VisibilitySensor>
         </div>
-        <div className="text-center lg:ml-16" style={{ width: "135px" }}>
+        <div className="text-center" style={{ width: "135px" }}>
           <VisibilitySensor>
             {({ isVisible }) => {
               const percentage = isVisible ? 98 : 0;
@@ -153,7 +153,7 @@ const Skills = () => {
             }}
           </VisibilitySensor>
         </div>
-        <div className="text-center " style={{ width: "135px" }}>
+        <div className="text-center" style={{ width: "135px" }}>
           <VisibilitySensor>
             {({ isVisible }) => {
               const percentage = isVisible ? 98 : 0;
@@ -180,7 +180,7 @@ const Skills = () => {
             }}
           </VisibilitySensor>
         </div>
-        <div className="text-center lg:ml-16" style={{ width: "135px" }}>
+        <div className="text-center" style={{ width: "135px" }}>
           <VisibilitySensor>
             {({ isVisible }) => {
               const percentage = isVisible ? 98 : 0;
@@ -207,7 +207,7 @@ const Skills = () => {
             }}
           </VisibilitySensor>
         </div>
-        <div className="text-center lg:ml-16" style={{ width: "135px" }}>
+        <div className="text-center" style={{ width: "135px" }}>
           <VisibilitySensor>
             {({ isVisible }) => {
               const percentage = isVisible ? 84 : 0;
@@ -234,7 +234,7 @@ const Skills = () => {
             }}
           </VisibilitySensor>
         </div>
-        <div className="text-center lg:ml-16" style={{ width: "135px" }}>
+        <div className="text-center" style={{ width: "135px" }}>
           <VisibilitySensor>
             {({ isVisible }) => {
               const percentage = isVisible ? 91 : 0;
@@ -261,7 +261,7 @@ const Skills = () => {
             }}
           </VisibilitySensor>
         </div>
-        <div className="text-center lg:ml-16" style={{ width: "135px" }}>
+        <div className="text-center" style={{ width: "135px" }}>
           <VisibilitySensor>
             {({ isVisible }) => {
               const percentage = isVisible ? 88 : 0;

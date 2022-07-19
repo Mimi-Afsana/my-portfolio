@@ -1,6 +1,6 @@
 .about-div {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 100px;
 }
 
@@ -10,5 +10,15 @@
     margin-left: 30px;
     margin-right: 30px;
     grid-gap: 20px;
+  }
+}
+  
+
+@media screen and (min-width: 1500px) {
+  .about-div {
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 0px;
+    margin-right: 0px;
+    grid-gap: 30px;
   }
 }

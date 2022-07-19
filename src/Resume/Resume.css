@@ -196,7 +196,7 @@
 .animated-button1 {
   background: linear-gradient(-30deg, 50%, 50%);
   padding: 13px 35px;
-  margin: 12px;
+  
   display: inline-block;
   -webkit-transform: translate(0%, 0%);
   transform: translate(0%, 0%);

@@ -1,14 +1,28 @@
-.banner-width img {
+/* .banner-width img {
   height: 580px;
   width: 1000px;
-}
+} */
 
-.hover-my:hover{
+.hover-my:hover {
   background-color: rgb(22, 34, 46);
 }
 
-.height-set{
+.height-set {
   line-height: 38px;
+}
+
+@media screen and (max-width: 1500px) {
+  .banner-width img {
+    width: 980px;
+    height: 500px;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .banner-width img {
+    height: 580px;
+    width: 1000px;
+  }
 }
 
 /* .banner-grid{
