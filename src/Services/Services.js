@@ -20,7 +20,7 @@ const Services = () => {
             src="https://i.ibb.co/Y3ws49t/website-design.png"
             alt=""
             width="60px"
-            className="lg:mb-2 ml-28 mb-4"
+            className="lg:mb-2 lg:ml-28 ml-40 mb-4"
           />
           <h3 className="text-xl font-semi-bold lg:mb-4 mb-4">WEB DESIGN</h3>
           <p className="text-xl">
@@ -38,7 +38,7 @@ const Services = () => {
             src="https://i.ibb.co/Rvsmsv2/img1.png"
             alt=""
             width="90px"
-            className="lg:mb-3 mb-4 lg:pl-2 sm:ml-28"
+            className="lg:mb-3 mb-4 lg:pl-2 ml-40"
           />
           <h3 className="text-xl font-semi-bold lg:mb-4 mb-4">
             FRONT-END DEVELOPMENT
@@ -58,7 +58,7 @@ const Services = () => {
             src="https://i.ibb.co/dJfCC88/backend.png"
             alt=""
             width="60px"
-            className="lg:mb-3 lg:pl-2 sm:ml-28 mb-4"
+            className="lg:mb-3 lg:pl-2 ml-40 mb-4"
           />
           <h3 className="text-xl font-semi-bold lg:mb-4 mb-4">
             BACK-END DEVELOPMENT

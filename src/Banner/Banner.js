@@ -28,7 +28,7 @@ const Banner = () => {
             data-aos="flip-left"
             data-aos-duration="600"
           />
-          <div class=" lg:mt-16 mt-6 lg:ml-7 ml-36 pl-1">
+          <div class=" lg:mt-16 mt-6 lg:ml-7 ml-10 pl-1">
             <a
               target="_blank"
               href="#about"
@@ -44,7 +44,7 @@ const Banner = () => {
         </div>
 
         <div class="">
-          <h2 class="card-title text-orange-300 text-4xl lg:pl-36 lg:mt-4 font-semi-bold mb-2 mt-5 ml-12">
+          <h2 class="card-title text-orange-300 text-4xl lg:pl-36 lg:mt-4 font-semi-bold mb-2 mt-12 ml-10">
             I'M
             <Typewriter
               options={{
@@ -57,7 +57,7 @@ const Banner = () => {
             />
           </h2>
 
-          <h2 className="card-title text-white text-4xl lg:pl-36 font-semi-bold mb-10 mt-5 ml-12">
+          <h2 className="card-title text-white text-4xl lg:pl-36 font-semi-bold mb-4 mt-5 ml-10">
             {" "}
             <span>WEB DEVELOPER</span>
           </h2>
@@ -87,7 +87,7 @@ const Banner = () => {
             </a>
           </div> */}
           <div>
-            <div class="lg:pl-40 lg:mt-16 sm:pb-20 sm:mt-8 ml-7">
+            <div class="lg:pl-40 lg:mt-16 sm:pb-20 mt-10 ml-12">
               <a
                 target="_blank"
                 href="#about"

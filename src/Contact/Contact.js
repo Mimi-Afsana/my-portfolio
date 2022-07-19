@@ -60,7 +60,7 @@ const Contact = () => {
         data-aos-easing="ease-out-cubic"
         data-aos-duration="1500"
       >
-        <h1 className="text-3xl font-bold mt-10">
+        <h1 className="text-3xl font-bold mt-10 lg:mt-20">
           GET IN <span className="text-orange-300">TOUCH</span>
         </h1>
         <form onSubmit={sentEmail}>
