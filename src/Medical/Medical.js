@@ -70,7 +70,7 @@ const Medical = () => {
 
       <a
         target="_blank"
-        href="https://github.com/Mimi-Afsana/medical-care"
+        href="https://github.com/Mimi-Afsana/my-medical-care/tree/main/medical-care"
         className=""
       >
         <button className="p-4 bg-sky-900 rounded lg:mb-10 lg:mt-6 lg:ml-10">

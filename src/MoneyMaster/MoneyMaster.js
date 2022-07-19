@@ -44,7 +44,7 @@ const MoneyMaster = () => {
 
       <a
         target="_blank"
-        href="https://github.com/Mimi-Afsana/money-master"
+        href="https://github.com/Mimi-Afsana/my-money-master-assignment"
         className=""
       >
         <button className="p-4 bg-sky-900 rounded lg:mb-10 lg:mt-6 lg:ml-10">

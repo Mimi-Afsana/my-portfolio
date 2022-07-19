@@ -95,7 +95,7 @@ const Manufracturer = () => {
 
       <a
         target="_blank"
-        href="https://github.com/Mimi-Afsana/manufracturer-parts-client-side"
+        href="https://github.com/Mimi-Afsana/full-stack-manufracturer-assignment-clientside/tree/main/manufracturer-parts-client-side"
         className=""
       >
         <button className="p-4 bg-sky-900 rounded lg:mb-10 lg:mt-6 lg:ml-10">
@@ -106,7 +106,7 @@ const Manufracturer = () => {
 
       <a
         target="_blank"
-        href="https://github.com/Mimi-Afsana/manufracturer-parts-server-side"
+        href="https://github.com/Mimi-Afsana/fuall-stack-assignment-12-server-side-serverside/tree/main/manufracturer-parts-server-side"
         className=""
       >
         <button className="p-4 bg-sky-900 rounded lg:mb-10 lg:mt-6 lg:ml-10 server-code mt-4">

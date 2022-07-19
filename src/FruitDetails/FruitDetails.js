@@ -91,7 +91,7 @@ const FruitDetails = () => {
 
       <a
         target="_blank"
-        href="https://github.com/Mimi-Afsana/warehouse-management-clientside"
+        href="https://github.com/Mimi-Afsana/fruits-assignment-11-warehouse"
         className=""
       >
         <button className="p-4 bg-sky-900 rounded lg:mb-10 mb-2  lg:mt-6 mt-6 lg:ml-10">
@@ -102,7 +102,7 @@ const FruitDetails = () => {
 
       <a
         target="_blank"
-        href="https://github.com/Mimi-Afsana/warehouse-management-serverside"
+        href="https://github.com/Mimi-Afsana/fruits-assignment-11-warehouse-serverside"
         className=""
       >
         <button className="p-4 bg-sky-900 rounded lg:mb-10 lg:mt-6 lg:ml-10 server-code">

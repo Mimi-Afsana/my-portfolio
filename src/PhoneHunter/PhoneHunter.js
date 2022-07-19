@@ -47,7 +47,7 @@ const PhoneHunter = () => {
 
       <a
         target="_blank"
-        href="https://github.com/Mimi-Afsana/phone-hunter"
+        href="https://github.com/Mimi-Afsana/phonee-hunterr"
         className=""
       >
         <button className="p-4 bg-sky-900 rounded lg:mb-10 lg:mt-6 lg:ml-10">

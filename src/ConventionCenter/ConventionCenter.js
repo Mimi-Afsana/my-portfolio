@@ -45,7 +45,7 @@ const ConventionCenter = () => {
 
       <a
         target="_blank"
-        href="https://github.com/Mimi-Afsana/convention-center"
+        href="https://github.com/Mimi-Afsana/assignment-3-conventioncommunity-center"
         className=""
       >
         <button className="p-4 bg-sky-900 rounded lg:mb-10 lg:mt-6 lg:ml-10">

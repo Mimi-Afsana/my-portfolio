@@ -18,7 +18,7 @@ const Banner = () => {
   //   console.log(count)}
   // }
   return (
-    <div class=" lg:mt-10 max-w-7xl mx-auto banner-width" id="header">
+    <div class=" lg:mt-14 max-w-7xl mx-auto banner-width" id="header">
       <div className="card-side banner-grid lg:flex md:block">
         <div className="">
           <img
@@ -28,7 +28,7 @@ const Banner = () => {
             data-aos="flip-left"
             data-aos-duration="600"
           />
-          <div class=" lg:mt-16 mt-6 lg:ml-7 ml-8 pl-1">
+          {/* <div class=" lg:mt-16 mt-6 lg:ml-7 ml-8 pl-1">
             <a
               target="_blank"
               href="https://drive.google.com/file/d/1nbUXw2gxNPxx68RVr6uKB2DuaeMPFbbJ/view?usp=sharing"
@@ -40,11 +40,11 @@ const Banner = () => {
               <span></span>
               Download Resume{" "}
             </a>
-          </div>
+          </div> */}
         </div>
 
         <div class="">
-          <h2 class="card-title text-orange-300 text-4xl lg:pl-36 lg:mt-4 font-semi-bold mb-2 mt-12 ml-10">
+          <h2 class="card-title text-orange-300 text-4xl lg:pl-40 lg:mt-8 font-semi-bold mb-2 mt-12 ml-10">
             I'M
             <Typewriter
               options={{
@@ -57,7 +57,7 @@ const Banner = () => {
             />
           </h2>
 
-          <h2 className="card-title text-white text-4xl lg:pl-36 font-semi-bold mb-4 mt-5 ml-10">
+          <h2 className="card-title text-white text-4xl lg:pl-40 font-semi-bold mb-4 mt-5 ml-10">
             {" "}
             <span>WEB DEVELOPER</span>
           </h2>
@@ -86,19 +86,18 @@ const Banner = () => {
               MY FULL INFORMATION
             </a>
           </div> */}
-          <div>
-            <div class="lg:pl-40 lg:mt-16 sm:pb-20 mt-10 ml-12">
-              <Link
-                to="/moreabout"
-                class="animated-button1 text-white p-4 rounded font-semi-bold hover-my"
-              >
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                More about me{" "}
-              </Link>
-            </div>
+          <div class=" lg:mt-16 mt-6 lg:ml-48 ml-8 pl-1">
+            <a
+              target="_blank"
+              href="https://drive.google.com/file/d/1nbUXw2gxNPxx68RVr6uKB2DuaeMPFbbJ/view?usp=sharing"
+              class="animated-button1 text-white p-4 rounded font-semi-bold hover-my"
+            >
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              Download Resume{" "}
+            </a>
           </div>
         </div>
       </div>
