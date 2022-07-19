@@ -10,6 +10,7 @@ import Instasohor from "./Instasohor/Instasohor";
 import Manufracturer from "./Manufracturer/Manufracturer";
 import Medical from "./Medical/Medical";
 import MoneyMaster from "./MoneyMaster/MoneyMaster";
+import MoreAbout from "./MoreAbout";
 import PhoneHunter from "./PhoneHunter/PhoneHunter";
 import Services from "./Services/Services";
 import Header from "./Shared/Header";
@@ -23,6 +24,7 @@ function App() {
         <Route path="/" element={<Home></Home>}></Route>
         <Route path="home" element={<Home></Home>}></Route>
         <Route path="homebutton" element={<HomeButton></HomeButton>}></Route>
+        <Route path="moreabout" element={<MoreAbout></MoreAbout>}></Route>
         <Route path="fruitss" element={<FruitDetails></FruitDetails>}></Route>
         <Route path="" element={<About></About>}></Route>
         <Route

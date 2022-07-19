@@ -24,7 +24,7 @@ const Manufracturer = () => {
         React
       </button>
 
-      <button className="bg-orange-300 lg:mt-3 mt-3 lg:px-4  lg:py-1 px-4 py-1 rounded lg:ml-3 ml-3">
+      <button className="bg-orange-300 lg:mt-3 mt-3 lg:px-4  lg:py-1 px-4 py-1 rounded lg:ml-3 ml-10">
         Nodejs
       </button>
       <button className="bg-orange-300 lg:mt-3 mt-3 lg:px-4  lg:py-1 px-4 py-1 rounded lg:ml-3 ml-3 system">
@@ -34,7 +34,7 @@ const Manufracturer = () => {
       <button className="bg-orange-300 lg:mt-3 mt-3 lg:px-4  lg:py-1 px-4 py-1 rounded lg:ml-3 ml-3">
         Daisy UI
       </button>
-      <button className="bg-orange-300 lg:mt-3 mt-3 lg:px-4  lg:py-1 px-4 py-1 rounded lg:ml-3 ml-3">
+      <button className="bg-orange-300 lg:mt-3 mt-3 lg:px-4  lg:py-1 px-4 py-1 rounded lg:ml-3 ml-10">
         Expressjs
       </button>
 
@@ -109,7 +109,7 @@ const Manufracturer = () => {
         href="https://github.com/Mimi-Afsana/manufracturer-parts-server-side"
         className=""
       >
-        <button className="p-4 bg-sky-900 rounded lg:mb-10 lg:mt-6 lg:ml-10 server-code">
+        <button className="p-4 bg-sky-900 rounded lg:mb-10 lg:mt-6 lg:ml-10 server-code mt-4">
           <FaDatabase className="lg:w-20 mb-2 text-white text-xl"></FaDatabase>
           <span className="font-bold text-white"> Server Code</span>
         </button>

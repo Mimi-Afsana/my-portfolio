@@ -31,7 +31,7 @@ const Banner = () => {
           <div class=" lg:mt-16 mt-6 lg:ml-7 ml-8 pl-1">
             <a
               target="_blank"
-              href="#about"
+              href="https://drive.google.com/file/d/1nbUXw2gxNPxx68RVr6uKB2DuaeMPFbbJ/view?usp=sharing"
               class="animated-button1 text-white p-4 rounded font-semi-bold hover-my"
             >
               <span></span>
@@ -88,17 +88,16 @@ const Banner = () => {
           </div> */}
           <div>
             <div class="lg:pl-40 lg:mt-16 sm:pb-20 mt-10 ml-12">
-              <a
-                target="_blank"
-                href="#about"
+              <Link
+                to="/moreabout"
                 class="animated-button1 text-white p-4 rounded font-semi-bold hover-my"
               >
                 <span></span>
                 <span></span>
                 <span></span>
                 <span></span>
-                MY FULL INFORMATION{" "}
-              </a>
+                More about me{" "}
+              </Link>
             </div>
           </div>
         </div>

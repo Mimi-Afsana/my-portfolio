@@ -21,7 +21,7 @@ const Medical = () => {
         React
       </button>
 
-      <button className="bg-orange-300 lg:mt-3 mt-3 lg:px-4  lg:py-1 px-4 py-1 rounded lg:ml-3 ml-3">
+      <button className="bg-orange-300 lg:mt-3 mt-3 lg:px-4  lg:py-1 px-4 py-1 rounded lg:ml-3 ml-10">
         Bootstrap
       </button>
 

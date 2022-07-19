@@ -26,17 +26,17 @@ const FruitDetails = () => {
       <button className="bg-orange-300 lg:mt-3 mt-3 lg:px-4 lg:py-1 px-4 py-1 rounded lg:ml-3 ml-3">
         React
       </button>
-      <button className="bg-orange-300 lg:mt-3 mt-3 lg:px-4 lg:py-1 px-4 py-1 rounded lg:ml-3 ml-3 boots">
+      <button className="bg-orange-300 lg:mt-3 mt-3 lg:px-4 lg:py-1 px-4 py-1 rounded lg:ml-3 ml-10 boots">
         Bootstrap
       </button>
-      <button className="bg-orange-300 lg:mt-3 mt-3 lg:px-4 lg:py-1 px-4 py-1 rounded lg:ml-3 ml-3  system ">
+      <button className="bg-orange-300 lg:mt-3 mt-3 lg:px-4 lg:py-1 px-4 py-1 rounded lg:ml-3 ">
         Nodejs
       </button>
-      <button className="bg-orange-300 lg:mt-3 mt-3 lg:px-4 lg:py-1 px-4 py-1 roundedml ml-3">
+      <button className="bg-orange-300 lg:mt-3 mt-3 lg:px-4 lg:py-1 px-4 py-1 rounded ml-3">
         Expressjs
       </button>
 
-      <button className="bg-orange-300 lg:mt-3 mt-3 lg:px-4 lg:py-1 px-4 py-1 rounded lg:ml-3 ml-3">
+      <button className="bg-orange-300 lg:mt-3 mt-3 lg:px-4 lg:py-1 px-4 py-1 rounded lg:ml-3 ml-10">
         React
       </button>
       <h1 className=" bg-slate-600 lg:mt-10 mt-10 lg:p-2 rounded-full text-center text-2xl font-bold text-slate-400 shadow-2xl mmy-fruit">
@@ -94,7 +94,7 @@ const FruitDetails = () => {
         href="https://github.com/Mimi-Afsana/warehouse-management-clientside"
         className=""
       >
-        <button className="p-4 bg-sky-900 rounded lg:mb-10 mb-10  lg:mt-6 mt-6 lg:ml-10">
+        <button className="p-4 bg-sky-900 rounded lg:mb-10 mb-2  lg:mt-6 mt-6 lg:ml-10">
           <FaGithub className="lg:w-20 mb-2 text-white text-xl"></FaGithub>
           <span className="font-bold text-white"> Client Code</span>
         </button>
