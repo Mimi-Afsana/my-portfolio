@@ -5,7 +5,7 @@ import "aos/dist/aos.css"; // You can also use <link> for styles
 AOS.init();
 const Services = () => {
   return (
-    <div className=" text-center lg:pl-32 pl-3 pr-3 lg:pr-20" id="services">
+    <div className=" text-center max-w-7xl mx-auto sm:pl-3 sm:pr-3" id="services">
       <h3 className=" lg:mb-10 mb-10 text-3xl font-semi-bold lg:pt-32 pt-24">
         <span className="text-white">MY</span>{" "}
         <span className="text-orange-300">SERVICES</span>
@@ -20,7 +20,7 @@ const Services = () => {
             src="https://i.ibb.co/Y3ws49t/website-design.png"
             alt=""
             width="60px"
-            className="lg:ml-48 lg:mb-2 ml-28 mb-4"
+            className="lg:mb-2 ml-28 mb-4"
           />
           <h3 className="text-xl font-semi-bold lg:mb-4 mb-4">WEB DESIGN</h3>
           <p className="text-xl">
@@ -30,7 +30,7 @@ const Services = () => {
           </p>
         </div>
         <div
-          className=" mb-2 m-3 p-5 lg:mr-16 text-slate-700 bg-slate-400 shadow-xl"
+          className=" mb-2 m-3 p-5 text-slate-700 bg-slate-400 shadow-xl"
           data-aos="zoom-in"
           data-aos-duration="600"
         >
@@ -38,7 +38,7 @@ const Services = () => {
             src="https://i.ibb.co/Rvsmsv2/img1.png"
             alt=""
             width="60px"
-            className="lg:ml-48 lg:mb-3 mb-4 ml-28"
+            className="lg:mb-3 mb-4 ml-28"
           />
           <h3 className="text-xl font-semi-bold lg:mb-4 mb-4">
             FRONT-END DEVELOPMENT
@@ -50,15 +50,15 @@ const Services = () => {
           </p>
         </div>
         <div
-          className="text-white mb-2 m-3 p-5 lg:mr-16 bg-slate-800 shadow-xl"
+          className="text-white mb-2 m-3 p-5 bg-slate-800 shadow-xl"
           data-aos="zoom-in"
           data-aos-duration="600"
         >
           <img
             src="https://i.ibb.co/dJfCC88/backend.png"
             alt=""
-            width="50px"
-            className="lg:ml-48 lg:mb-3 ml-28 mb-4"
+            width="40px"
+            className="lg:mb-3 sm:ml-28 mb-4"
           />
           <h3 className="text-xl font-semi-bold lg:mb-4 mb-4">
             BACK-END DEVELOPMENT

@@ -4,8 +4,9 @@
 }
 .projects {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 30px;
+  margin-left: 50px;
 }
 .set-position {
   position: relative;
@@ -15,7 +16,7 @@
   width: 350px;
   height: 235px;
   margin-right: 0;
-  padding-left: 15px;
+
   margin-top: 15px;
   top: 0;
   color: black;

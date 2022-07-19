@@ -9,7 +9,7 @@ const MyProjects = () => {
   return (
     <div>
       <div
-        className="text-white projects-information lg:pl-36 lg:pr-40 pb-10 "
+        className="text-white projects-information max-w-7xl mx-auto pb-10 "
         id="portfolio"
       >
         <h3 className="text-center font-semi-bold text-3xl mb-8 lg:pt-24 pt-24 lg:pb-10">

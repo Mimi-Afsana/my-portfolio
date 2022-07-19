@@ -18,7 +18,7 @@ const Banner = () => {
   //   console.log(count)}
   // }
   return (
-    <div class=" lg:mt-10 lg:pl-32 md:pl-5 mx-auto banner-width" id="header">
+    <div class=" lg:mt-10 max-w-7xl mx-auto banner-width" id="header">
       <div className="card-side banner-grid lg:flex md:block">
         <div className="">
           <img
@@ -28,7 +28,7 @@ const Banner = () => {
             data-aos="flip-left"
             data-aos-duration="600"
           />
-          <div class=" lg:mt-16 sm:pb-20 sm:mt-8 ml-7 pl-16">
+          <div class=" lg:mt-16 sm:pb-20 sm:mt-8 sm:ml-7 pl-1">
             <a
               target="_blank"
               href="#about"
@@ -43,7 +43,7 @@ const Banner = () => {
           </div>
         </div>
 
-        <div class="lg:mr-28">
+        <div class="">
           <h2 class="card-title text-orange-300 text-4xl lg:pl-36 lg:mt-4 font-semi-bold mb-2 mt-5 ml-12">
             I'M
             <Typewriter
@@ -62,7 +62,7 @@ const Banner = () => {
             <span>WEB DEVELOPER</span>
           </h2>
           <p
-            className="text-white lg:pl-48 mb-3 text-xl height-set lg:pr-24 md:pr-6 pr-8 pl-10
+            className="text-white lg:pl-48 mb-3 text-xl height-set pr-8 pl-10
         "
           >
             I’m a web designer & web developer focused on crafting clean &
@@ -70,7 +70,7 @@ const Banner = () => {
             building excellent website for all of my clients.
           </p>
           <p
-            className="text-white lg:pl-48 text-xl height-set lg:pr-24 pr-8 pl-10
+            className="text-white lg:pl-48 text-xl height-set pr-8 pl-10
         "
           >
             Well-organised person, problem solver, independent employee with

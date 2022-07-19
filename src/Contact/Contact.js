@@ -32,12 +32,12 @@ const Contact = () => {
       );
   };
   return (
-    <div className="lg:pl-40 form-submit pl-10" id="contact">
+    <div className="max-w-7xl mx-auto form-submit sm:pl-10" id="contact">
       <div className="text-white ">
         <h2 className="text-xl font-bold lg:mb-5 mb-5 lg:mt-20 mt-24">
           DON'T BE SHY!
         </h2>
-        <p className="lg:pr-96 lg:mb-4 mb-4 text-xl">
+        <p className=" lg:mb-4 mb-4 text-xl">
           Feel free to get in touch with me. I am always open to discussing new
           project, creative ideas or opportunities to be part of your visions.
         </p>
@@ -60,20 +60,20 @@ const Contact = () => {
         data-aos-easing="ease-out-cubic"
         data-aos-duration="1500"
       >
-        <h1 className="lg:pr-96 text-3xl font-bold mt-10">
+        <h1 className="text-3xl font-bold mt-10">
           GET IN <span className="text-orange-300">TOUCH</span>
         </h1>
         <form onSubmit={sentEmail}>
           <input
             name="fname"
             type="text"
-            className="lg:w-80 w-4/5 mt-8 lg:mt-10 bg-slate-600 shadow-2xl text-white lg:pl-5 p-2 rounded font-bold mb-3"
+            className=" w-4/5 mt-8 lg:mt-10 bg-slate-600 shadow-2xl text-white lg:pl-5 p-2 rounded font-bold mb-3"
             placeholder="YOUR FIRST NAME"
           />
           <input
             name="lname"
             type="text"
-            className="lg:w-80 lg:mt-4 w-4/5  lg:ml-10 lg:pl-5 p-2 rounded font-bold bg-slate-600 shadow-2xl mb-3"
+            className=" lg:mt-4 w-4/5  p-2 rounded font-bold bg-slate-600 shadow-2xl mb-3"
             placeholder="YOUR LAST NAME"
           />
           <input
