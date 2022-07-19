@@ -32,7 +32,7 @@ const FruitDetails = () => {
       <button className="bg-orange-300 lg:mt-3 mt-3 lg:px-4 lg:py-1 px-4 py-1 rounded lg:ml-3 ">
         Nodejs
       </button>
-      <button className="bg-orange-300 lg:mt-3 mt-3 lg:px-4 lg:py-1 px-4 py-1 rounded ml-3">
+      <button className="bg-orange-300 lg:mt-3 mt-3 lg:ml-1 lg:px-4 lg:py-1 px-4 py-1 rounded ml-3">
         Expressjs
       </button>
 

@@ -12,7 +12,7 @@ const MyProjects = () => {
         className="text-white projects-information max-w-7xl mx-auto pb-10 "
         id="portfolio"
       >
-        <h3 className="text-center font-semi-bold text-3xl mb-8 lg:pt-24 pt-24 lg:pb-10">
+        <h3 className="text-center font-semi-bold text-3xl mb-9 lg:pt-24 pt-24 lg:pb-10">
           MY <span className="text-orange-300 ">PROJECTS</span>
         </h3>
 
