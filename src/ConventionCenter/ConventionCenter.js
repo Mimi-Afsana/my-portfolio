@@ -1,58 +1,65 @@
 import React from "react";
-import { FaDatabase, FaLocationArrow, FaGithub } from "react-icons/fa";
+import { FaLocationArrow, FaGithub } from "react-icons/fa";
 
 const ConventionCenter = () => {
   return (
-    <div className="lg:w-1/3 mx-auto my-fruit">
+    <div className="w-full lg:w-1/3 mx-auto px-4 py-6">
       <img
         src="https://i.ibb.co/Yfz9pkm/Convention-community-center.png"
-        alt=""
+        alt="Convention Community Center"
+        className="w-full max-w-md mx-auto rounded"
       />
-      <h1 className="text-3xl lg:mt-10 mt-10 mb-10 text-slate-400 font-bold system">
+      <h1 className="text-2xl sm:text-3xl mt-6 mb-4 text-slate-400 font-bold text-center">
         CONVENTION COMMUNITY CENTER
       </h1>
-      <button className="bg-orange-300 lg:mt-3 mt-3 lg:px-4 lg:py-1 px-4 py-1 rounded system">
-        HTML
-      </button>
-      <button className="bg-orange-300 lg:mt-3 mt-3 lg:px-4  lg:py-1 px-4 py-1 rounded lg:ml-3 ml-3">
-        CSS
-      </button>
 
-      <h1 className=" bg-slate-600 lg:mt-10 mt-10 lg:p-2 rounded-full text-center text-2xl font-bold text-slate-400 shadow-2xl mmy-fruit">
-        Project Details :
-      </h1>
-      <p className="mt-10 text-slate-400 mmy-fruit">
-        ● This is website about convention community center
-      </p>
-      <p className="mt-10 text-slate-400 mmy-fruit">
-        ● Here showing different types of booking package.Basic package,
-        Standard package and Special package.
-      </p>
-      <p className="mt-10 text-slate-400 mmy-fruit">
-        ● There got a simple form and a footer.
-      </p>
+      {/* Technology Buttons */}
+      <div className="flex flex-wrap justify-center gap-3 mb-8">
+        {["HTML", "CSS", "Bootstrap"].map((tech) => (
+          <button
+            key={tech}
+            className="bg-orange-300 px-4 py-1 rounded text-sm sm:text-base"
+          >
+            {tech}
+          </button>
+        ))}
+      </div>
 
-      <a
-        target="_blank"
-        href="https://clever-curran-convention-center.netlify.app/"
-        className=""
-      >
-        <button className="p-4 bg-sky-900 rounded lg:mb-10 mb-10 lg:mt-12 mt-12 live-fruit">
-          <FaLocationArrow className="lg:w-20 mb-2 text-white text-xl"></FaLocationArrow>
-          <span className="font-bold text-white"> Live Website</span>
-        </button>
-      </a>
+      {/* Project Details Section */}
+      <h2 className="bg-slate-600 text-center text-lg sm:text-xl lg:text-2xl font-bold text-slate-400 rounded-full py-2 mt-8 shadow-lg">
+        Project Details:
+      </h2>
+      <div className="mt-6 text-slate-400 space-y-4 px-2 sm:px-4">
+        <p>● This website is about the convention community center.</p>
+        <p>● It shows different types of booking packages: Basic, Standard, and Special.</p>
+        <p>● There is a simple form and a footer.</p>
+      </div>
 
-      <a
-        target="_blank"
-        href="https://github.com/Mimi-Afsana/assignment-3-conventioncommunity-center"
-        className=""
-      >
-        <button className="p-4 bg-sky-900 rounded lg:mb-10 lg:mt-6 lg:ml-10">
-          <FaGithub className="lg:w-20 mb-2 text-white text-xl"></FaGithub>
-          <span className="font-bold text-white"> GitHub Code</span>
-        </button>
-      </a>
+      {/* Links to Live Site and GitHub */}
+      <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-8">
+        <a
+          target="_blank"
+          href="https://clever-curran-convention-center.netlify.app/"
+          rel="noopener noreferrer"
+          className="w-full sm:w-auto"
+        >
+          <button className="w-full sm:w-auto flex items-center justify-center bg-sky-900 text-white font-bold py-3 px-6 rounded shadow-lg hover:bg-sky-800 transition">
+            <FaLocationArrow className="mr-2 text-xl" />
+            Live Website
+          </button>
+        </a>
+        <a
+          target="_blank"
+          href="https://github.com/Mimi-Afsana/assignment-3-conventioncommunity-center"
+          rel="noopener noreferrer"
+          className="w-full sm:w-auto"
+        >
+          <button className="w-full sm:w-auto flex items-center justify-center bg-sky-900 text-white font-bold py-3 px-6 rounded shadow-lg hover:bg-sky-800 transition">
+            <FaGithub className="mr-2 text-xl" />
+            GitHub Code
+          </button>
+        </a>
+      </div>
     </div>
   );
 };

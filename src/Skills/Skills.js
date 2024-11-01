@@ -1,7 +1,6 @@
 import React from "react";
 import "./Skill.css";
 import {
-  CircularProgressbar,
   CircularProgressbarWithChildren,
   buildStyles,
 } from "react-circular-progressbar";
@@ -13,7 +12,7 @@ const Skills = () => {
       className="text-white mx-auto lg:pt-28 pt-24"
       id="skill"
     >
-      <h1 className="text-center text-3xl font-semi-bold mb-16  lg:pt-6 ">
+      <h1 className="text-center text-3xl font-bold mb-16  lg:pt-6 ">
         MY <span className="text-orange-300">SKILLS</span>
       </h1>
 
@@ -129,6 +128,33 @@ const Skills = () => {
         <div className="text-center" style={{ width: "135px" }}>
           <VisibilitySensor>
             {({ isVisible }) => {
+              const percentage = isVisible ? 94 : 0;
+
+              return (
+                <CircularProgressbarWithChildren
+                  value={percentage}
+                  strokeWidth={6}
+                  // text="HTML"
+                  // text={`${percentage}%`}
+                  styles={buildStyles({
+                    // textColor: "red",
+                    pathColor: "#fdba74",
+                    pathTransitionDuration: 3,
+                    trailColor: "black",
+                  })}
+                >
+                  <div>
+                    <p className="font-semi-bold">REACT ROUTER</p>
+                    <p className="text-2xl text-white text-center">{`${percentage}%`}</p>
+                  </div>
+                </CircularProgressbarWithChildren>
+              );
+            }}
+          </VisibilitySensor>
+        </div>
+        <div className="text-center" style={{ width: "135px" }}>
+          <VisibilitySensor>
+            {({ isVisible }) => {
               const percentage = isVisible ? 98 : 0;
 
               return (
@@ -172,7 +198,7 @@ const Skills = () => {
                   })}
                 >
                   <div>
-                    <p className="font-semi-bold ">TAILWIND</p>
+                    <p className="font-semi-bold ">TAILWIND CSS</p>
                     <p className="text-2xl text-white text-center">{`${percentage}%`}</p>
                   </div>
                 </CircularProgressbarWithChildren>
@@ -200,6 +226,33 @@ const Skills = () => {
                 >
                   <div>
                     <p className="font-semi-bold">DAISY UI</p>
+                    <p className="text-2xl text-white text-center">{`${percentage}%`}</p>
+                  </div>
+                </CircularProgressbarWithChildren>
+              );
+            }}
+          </VisibilitySensor>
+        </div>
+        <div className="text-center" style={{ width: "135px" }}>
+          <VisibilitySensor>
+            {({ isVisible }) => {
+              const percentage = isVisible ? 99 : 0;
+
+              return (
+                <CircularProgressbarWithChildren
+                  value={percentage}
+                  strokeWidth={6}
+                  // text="HTML"
+                  // text={`${percentage}%`}
+                  styles={buildStyles({
+                    // textColor: "red",
+                    pathColor: "#fdba74",
+                    pathTransitionDuration: 3,
+                    trailColor: "black",
+                  })}
+                >
+                  <div>
+                    <p className="font-semi-bold">Firebase Authentication</p>
                     <p className="text-2xl text-white text-center">{`${percentage}%`}</p>
                   </div>
                 </CircularProgressbarWithChildren>

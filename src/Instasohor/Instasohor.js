@@ -1,5 +1,5 @@
 import React from "react";
-import { FaDatabase, FaLocationArrow, FaGithub } from "react-icons/fa";
+import { FaLocationArrow, FaGithub } from "react-icons/fa";
 
 const Instasohor = () => {
   return (

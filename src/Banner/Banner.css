@@ -1,5 +1,5 @@
 .banner-width img {
-  height: 580px;
+  height: 500px;
   width: 1000px;
 }
 
@@ -18,14 +18,4 @@
   }
 }
 
-/* @media screen and (min-width: 1900px) {
-  .banner-width img {
-    height: 580px;
-    width: 1000px;
-  }
-} */
 
-/* .banner-grid{
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-} */

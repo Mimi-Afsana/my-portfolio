@@ -6,7 +6,7 @@ AOS.init();
 const Services = () => {
   return (
     <div className=" text-center max-w-7xl mx-auto sm:pl-3 sm:pr-3" id="services">
-      <h3 className=" lg:mb-10 mb-10 text-3xl font-semi-bold lg:pt-32 pt-24">
+      <h3 className=" lg:mb-10 mb-10 text-3xl font-bold lg:pt-32 pt-24">
         <span className="text-white">MY</span>{" "}
         <span className="text-orange-300">SERVICES</span>
       </h3>

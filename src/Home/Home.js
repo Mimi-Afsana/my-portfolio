@@ -3,7 +3,6 @@ import About from "../About/About";
 import Banner from "../Banner/Banner";
 import Contact from "../Contact/Contact";
 import Footer from "../Footer/Footer";
-import HomeButton from "../HomeButton";
 import MyProjects from "../MyProjects/MyProjects";
 import Resume from "../Resume/Resume";
 import Services from "../Services/Services";
@@ -19,7 +18,6 @@ const Home = () => {
       <Services></Services>
       <MyProjects></MyProjects>
       <Contact></Contact>
-      <HomeButton></HomeButton>
       <Footer></Footer>
     </div>
   );

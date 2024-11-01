@@ -24,7 +24,7 @@ const About = () => {
         </div>
         <div className="text-center">
           <p className="border pt-6 pb-6">
-            <sapn className="text-3xl font-bold text-orange-300">4</sapn>{" "}
+            <sapn className="text-3xl font-bold text-orange-300">2</sapn>{" "}
             <br />
             <p className="mt-2">RUNNING PROJECTS</p>
           </p>

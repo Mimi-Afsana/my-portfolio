@@ -1,26 +1,16 @@
-import React, { useState } from "react";
-import { Nav } from "react-bootstrap";
-import { Link } from "react-router-dom";
+
 import "./Banner.css";
 import Typewriter from "typewriter-effect";
 import AOS from "aos";
-import "aos/dist/aos.css"; // You can also use <link> for styles
+import "aos/dist/aos.css";
 AOS.init();
 
 const Banner = () => {
-  const [count, setCount] = useState(0);
-  const handleDone = () => {
-    console.log(`Done after 5 loops!`);
-  };
 
-  // const handleType = (count:number) => {
-  //   // access word count number
-  //   console.log(count)}
-  // }
   return (
     <div class=" lg:mt-14 max-w-7xl mx-auto banner-width" id="header">
       <div className="card-side banner-grid lg:flex md:block">
-        <div className="">
+        <div className="mt-5">
           <img
             src="https://i.ibb.co/025109B/IMG-20220702-193420-removebg-preview.png"
             alt="picture"
@@ -28,19 +18,7 @@ const Banner = () => {
             data-aos="flip-left"
             data-aos-duration="600"
           />
-          {/* <div class=" lg:mt-16 mt-6 lg:ml-7 ml-8 pl-1">
-            <a
-              target="_blank"
-              href="https://drive.google.com/file/d/1nbUXw2gxNPxx68RVr6uKB2DuaeMPFbbJ/view?usp=sharing"
-              class="animated-button1 text-white p-4 rounded font-semi-bold hover-my"
-            >
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              Download Resume{" "}
-            </a>
-          </div> */}
+
         </div>
 
         <div class="">
@@ -78,25 +56,18 @@ const Banner = () => {
             and working on ambitious projects with positive people.
           </p>
 
-          {/* <div class="lg:pl-48 lg:mt-20 sm:pb-20">
-            <a
-              href="#about"
-              className="text-white p-4 rounded-full border border-orange-300 font-semi-bold hover-my"
-            >
-              MY FULL INFORMATION
-            </a>
-          </div> */}
-          <div class=" lg:mt-16 mt-6 lg:ml-48 ml-8 pl-1">
+
+          <div class=" lg:mt-16 mt-6 lg:ml-48 ml-8 pl-1 font-bold">
             <a
               target="_blank"
               href="https://drive.google.com/file/d/1nbUXw2gxNPxx68RVr6uKB2DuaeMPFbbJ/view?usp=sharing"
-              class="animated-button1 text-white p-4 rounded font-semi-bold hover-my"
+              class="animated-button1 text-white p-4 rounded hover-my"
             >
               <span></span>
               <span></span>
               <span></span>
               <span></span>
-              Download Resume{" "}
+              <strong>Download Resume</strong>
             </a>
           </div>
         </div>
