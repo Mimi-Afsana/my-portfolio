@@ -15,10 +15,11 @@ const Contact = () => {
 
   const sentEmail = (event) => {
     event.preventDefault();
-    const fname = event.target.fname.value;
-    const lname = event.target.lname.value;
-    const email = event.target.email.value;
-    const message = event.target.message.value;
+    const form = event.target; // Get the form element
+    const fname = form.fname.value;
+    const lname = form.lname.value;
+    const email = form.email.value;
+    const message = form.message.value;
 
     const data = {
       name: `${fname} ${lname}`,
@@ -34,6 +35,7 @@ const Contact = () => {
           toast.success("Email sent successfully!");
 
           // Clear form data after success
+          form.reset(); // This will clear the form fields
         },
         (error) => {
           console.log("Failed to send email:", error.text);

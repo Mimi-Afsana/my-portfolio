@@ -32,7 +32,7 @@ const PhoneHunter = () => {
       <div className="mt-6 text-slate-400 space-y-4 px-2 sm:px-4">
         <p>● This is a website about Phone Hunter with a search button for searching phones.</p>
         <p>● Users can search for different types of phones like Oppo, Samsung, Huawei.</p>
-        <p>● If a user inputs incorrect information in the search field, it will display an error.</p>
+        <p>● Users can see details of a phone.</p>
       </div>
 
       {/* Links to Live Site and GitHub */}
